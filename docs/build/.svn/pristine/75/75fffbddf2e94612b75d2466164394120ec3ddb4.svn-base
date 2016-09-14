@@ -1,0 +1,189 @@
+
+
+<!doctype html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pl">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Instrukcja systemu Retilia.Point &mdash; Instrukcja Systemu Retilia.Point</title>
+    
+    <link rel="stylesheet" href="_static/bizstyle.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '1.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/translations.js"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript" src="_static/bizstyle.js"></script>
+    <link rel="top" title="Instrukcja Systemu Retilia.Point" href="#" />
+    <link rel="next" title="1. Słownik towarów" href="_main/slow.html" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="_static/css3-mediaqueries.js"></script>
+    <![endif]-->
+  </head>
+  <body role="document">
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Nawigacja</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="Indeks ogólny"
+             accesskey="I">indeks</a></li>
+        <li class="right" >
+          <a href="_main/slow.html" title="1. Słownik towarów"
+             accesskey="N">dalej</a> |</li>
+        <li class="nav-item nav-item-0"><a href="#">Instrukcja Retilia.Point</a> &raquo;</li> 
+      </ul>
+    </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+            <p class="logo"><a href="#">
+              <img class="logo" src="_static/retilia_logo.jpg" alt="Logo"/>
+            </a></p>
+  <h3><a href="#">Spis treści</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Instrukcja systemu Retilia.Point</a><ul>
+<li><a class="reference internal" href="#wprowadzenie">Wprowadzenie</a></li>
+<li><a class="reference internal" href="#spis-tresci">Spis treści:</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Następny temat</h4>
+  <p class="topless"><a href="_main/slow.html"
+                        title="następny rozdział">1. Słownik towarów</a></p>
+  <div role="note" aria-label="source link">
+    <h3>Ta strona</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/index.txt"
+            rel="nofollow">Pokaż źródło</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Szybkie wyszukiwanie</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Szukaj" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="instrukcja-systemu-retilia-point">
+<h1>Instrukcja systemu Retilia.Point<a class="headerlink" href="#instrukcja-systemu-retilia-point" title="Stały odnośnik do tego nagłówka">¶</a></h1>
+<div class="section" id="wprowadzenie">
+<h2>Wprowadzenie<a class="headerlink" href="#wprowadzenie" title="Stały odnośnik do tego nagłówka">¶</a></h2>
+<p>Retilia.Point jest systemem, który znajduje zastosowanie w większości branż handlu detalicznego oraz hurtowego</p>
+<p>Dostosowany jest do sprawnego zarządzania oraz obsługi sprzedaży w sklepie detalicznym, przede wszystkim w branżach: odzieżowej, meblarskiej oraz agd-rtv.</p>
+<p>Instrukcja którą przedstawiamy, wprowadza i pozwala na zapoznanie się z programem Retilia.Point, przedstawia jego strukturę oraz funkcjonowanie, umożliwia sprawne poruszanie się po programie i umiejętne korzystanie z jego zastosowań.</p>
+<p>Instrukcja podzielona jest na grupy tematyczne. Do każdej z grup dobrane są, związane z nią zagadnienia. Grupy tematyczne i tematy prezentowane są w kolejności od podstawowych (jak Lista towarów, Lista kontrahentów oraz Lista dokumentów) poprzez bardziej zaawansowane (Kasa sklepowa, Kasa główna, Dokumenty magazynowe) i zaawansowane (Raporty, Rankingi). Ostatnia grupa tematyczna dotyczy graficznej prezentacji danych w systemie Retilia.Point.</p>
+</div>
+<div class="section" id="spis-tresci">
+<h2>Spis treści:<a class="headerlink" href="#spis-tresci" title="Stały odnośnik do tego nagłówka">¶</a></h2>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="_main/slow.html">1. Słownik towarów</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="_main/slow.html#dopisywanie-nowego-towaru">1.1 Dopisywanie nowego towaru</a></li>
+<li class="toctree-l2"><a class="reference internal" href="_main/slow.html#poprawianie-informacji-o-towarze">1.2 Poprawianie informacji o towarze</a></li>
+<li class="toctree-l2"><a class="reference internal" href="_main/slow.html#prezentacja-listy-towarow">1.3 Prezentacja listy towarów</a></li>
+<li class="toctree-l2"><a class="reference internal" href="_main/slow.html#uzyskiwanie-szczegolowych-informacji-o-towarze">1.4 Uzyskiwanie szczegółowych informacji o towarze</a></li>
+<li class="toctree-l2"><a class="reference internal" href="_main/slow.html#usuwanie-pozycji-z-listy-towarow">1.5 Usuwanie pozycji z listy towarów</a></li>
+<li class="toctree-l2"><a class="reference internal" href="_main/slow.html#grupy-towarowe-i-grupy-asortymentowe">1.6 Grupy towarowe i grupy asortymentowe</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="_main/dane.html">2. Baza kontrahentów w systemie Retilia.Point</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="_main/dane.html#dopisywanie-nowego-kontrahenta">2.1 Dopisywanie nowego kontrahenta</a></li>
+<li class="toctree-l2"><a class="reference internal" href="_main/dane.html#poprawianie-informacji-o-kontrahencie">2.2  Poprawianie informacji o kontrahencie</a></li>
+<li class="toctree-l2"><a class="reference internal" href="_main/dane.html#prezentacja-listy-kontrahentow">2.3 Prezentacja listy kontrahentów</a></li>
+<li class="toctree-l2"><a class="reference internal" href="_main/dane.html#uzyskiwanie-szczegolowych-informacji-o-kontrahencie">2.4 Uzyskiwanie szczegółowych informacji o kontrahencie</a></li>
+<li class="toctree-l2"><a class="reference internal" href="_main/dane.html#usuwanie-pozycji-z-listy-kontrahentow">2.5 Usuwanie pozycji z listy kontrahentów</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="_main/doku.html">3. Dokumenty w systemie Retilia.Point</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="_main/doku.html#lista-dokumentow">3.1 Lista dokumentów</a></li>
+<li class="toctree-l2"><a class="reference internal" href="_main/doku.html#opis-parametrow-w-oknie-dokument">3.2 Opis parametrów w oknie Dokument</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="_main/sprz.html">4. Sprzedaż</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="_main/sprz.html#kasa-sklepowa">4.1 Kasa sklepowa</a></li>
+<li class="toctree-l2"><a class="reference internal" href="_main/sprz.html#paragon-standard">4.2 Paragon standard</a></li>
+<li class="toctree-l2"><a class="reference internal" href="_main/sprz.html#paragon-szybka-sprzedaz">4.3 Paragon – szybka sprzedaż</a></li>
+<li class="toctree-l2"><a class="reference internal" href="_main/sprz.html#faktura-vat-do-paragonu">4.4  Faktura VAT do paragonu</a></li>
+<li class="toctree-l2"><a class="reference internal" href="_main/sprz.html#korekta-do-faktury-vat">4.5 Korekta do faktury VAT</a></li>
+<li class="toctree-l2"><a class="reference internal" href="_main/sprz.html#zwrot-od-klienta">4.6 Zwrot od klienta</a></li>
+<li class="toctree-l2"><a class="reference internal" href="_main/sprz.html#korekta-rozmiaru">4.7 Korekta rozmiaru</a></li>
+<li class="toctree-l2"><a class="reference internal" href="_main/sprz.html#zamowienie-od-klienta">4.8 Zamówienie od klienta</a></li>
+<li class="toctree-l2"><a class="reference internal" href="_main/sprz.html#realizacja-zamowien-w-salonie">4.9 Realizacja zamówień w salonie</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="_main/kasa.html">5. Kasa Główna</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="_main/kasa.html#obsluga-kasy-glownej">5.1  Obsługa kasy głównej</a></li>
+<li class="toctree-l2"><a class="reference internal" href="_main/kasa.html#wystawianie-kwitow-kasowych">5.2 Wystawianie kwitów kasowych</a></li>
+<li class="toctree-l2"><a class="reference internal" href="_main/kasa.html#rozliczanie-platnosci">5.3 Rozliczanie płatności</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="_main/dokumag.html">6. Dokumenty magazynowe</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="_main/dokumag.html#dokument-mm">6.1 Dokument MM</a></li>
+<li class="toctree-l2"><a class="reference internal" href="_main/dokumag.html#dokument-pz">6.2 Dokument PZ</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="_main/rap.html">7.Raporty w systemie Retilia.Point</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="_main/rap.html#raport-sprzedazy-i-kasy-glownej">7.1 Raport sprzedaży i kasy głównej</a></li>
+<li class="toctree-l2"><a class="reference internal" href="_main/rap.html#raport-stan-towarow-na-dzien-zalegajacych">7.2 Raport - Stan towarów na dzień (zalegających)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="_main/rap.html#utargi-raport">7.3 Utargi – raport</a></li>
+<li class="toctree-l2"><a class="reference internal" href="_main/rap.html#ranking-towarow">7.4 Ranking towarów</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="_main/graf.html">8.Graficzna prezentacja danych</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="_main/graf.html#panel-grupowania">8.1 Panel grupowania</a></li>
+<li class="toctree-l2"><a class="reference internal" href="_main/graf.html#dostosuj-widok">8.2 Dostosuj widok</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Nawigacja</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="Indeks ogólny"
+             >indeks</a></li>
+        <li class="right" >
+          <a href="_main/slow.html" title="1. Słownik towarów"
+             >dalej</a> |</li>
+        <li class="nav-item nav-item-0"><a href="#">Instrukcja Retilia.Point</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &copy; Copyright 2016, Retilia Sp. z o.o..
+    </div>
+  </body>
+</html>

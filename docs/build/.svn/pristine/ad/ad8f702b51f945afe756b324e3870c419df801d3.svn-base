@@ -1,0 +1,474 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>7.Raporty w systemie Retilia.Point &mdash; Instrukcja Systemu Retilia.Point</title>
+  
+
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+    <link rel="top" title="Instrukcja Systemu Retilia.Point" href="../index.html"/>
+        <link rel="next" title="8.Graficzna prezentacja danych" href="graf.html"/>
+        <link rel="prev" title="6. Dokumenty magazynowe" href="dokumag.html"/> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Instrukcja Retilia.Point
+          
+
+          
+            
+            <img src="../_static/retilia_logo.jpg" class="logo" />
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+                <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="slow.html">1. Słownik towarów</a></li>
+<li class="toctree-l1"><a class="reference internal" href="dane.html">2. Baza kontrahentów w systemie Retilia.Point</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doku.html">3. Dokumenty w systemie Retilia.Point</a></li>
+<li class="toctree-l1"><a class="reference internal" href="sprz.html">4. Sprzedaż</a></li>
+<li class="toctree-l1"><a class="reference internal" href="kasa.html">5. Kasa Główna</a></li>
+<li class="toctree-l1"><a class="reference internal" href="dokumag.html">6. Dokumenty magazynowe</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">7.Raporty w systemie Retilia.Point</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#raport-sprzedazy-i-kasy-glownej">7.1 Raport sprzedaży i kasy głównej</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#raport-stan-towarow-na-dzien-zalegajacych">7.2 Raport - Stan towarów na dzień (zalegających)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#utargi-raport">7.3 Utargi – raport</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#ranking-towarow">7.4 Ranking towarów</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="graf.html">8.Graficzna prezentacja danych</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../index.html">Instrukcja Retilia.Point</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+ 
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../index.html">Docs</a> &raquo;</li>
+      
+    <li>7.Raporty w systemie Retilia.Point</li>
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../_sources/_main/rap.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="raporty-w-systemie-retilia-point">
+<h1>7.Raporty w systemie Retilia.Point<a class="headerlink" href="#raporty-w-systemie-retilia-point" title="Stały odnośnik do tego nagłówka">¶</a></h1>
+<p><strong>W tej części instrukcji przedstawiony jest sposób wykonywania raportów w systemie Retilia.Point na wybranych przykładach. System Retilia.Point daje ogromne możliwości generowania wszelkiego typu raportów. Poniższe przykłady raportów i rankingów dają obraz jak wyglądają raporty generowane przez system Retilia.Point oraz przedstawiają metody ich tworzenia.</strong></p>
+<div class="section" id="raport-sprzedazy-i-kasy-glownej">
+<h2>7.1 Raport sprzedaży i kasy głównej<a class="headerlink" href="#raport-sprzedazy-i-kasy-glownej" title="Stały odnośnik do tego nagłówka">¶</a></h2>
+<p><strong>Raport sprzedaży i kasy głównej generuje zestawienie transakcji w określonym przedziale czasu z uwzględnieniem ilości transakcji oraz form płatności.</strong></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="53%" />
+<col width="47%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>W celu wykonania <strong>Raportu sprzedaży i kasy głównej</strong>, należy w programie MenuXR wybrać zakładkę <strong>Raporty systemu Retilia.Point</strong>, a następnie wybrać pozycję <strong>Kasa sklepowa</strong>. System wyświetli okno <strong>Raporty</strong>, w którym należy wybrać <strong>Raport sprzedaży i kasy głównej</strong> i nacisnąć przycisk wykonaj.</td>
+<td><a class="reference external" href="_zdj/7.1menu.png"><img alt="zdj1" class="align-middle" src="../_images/7.1menu.png" style="width: 493.0px; height: 346.5px;" /></a></td>
+</tr>
+<tr class="row-even"><td><p class="first">Dostęp do raportu <strong>Raport sprzedaży i kasy głównej</strong> można uzyskać również w tej samej zakładce, wybierając pozycję <strong>Wszystkie</strong>. Po otwarciu okna <strong>Raporty</strong>, należy wybrać kategorię <strong>Kasa sklepowa</strong>.</p>
+<p class="last">W tym przypadku, system umożliwi dostęp do wszystkich dziesięciu kategorii raportów generowanych przez system Retilia.Point: <em>Dokumenty, Kasa główna, Kasa sklepowa, Koszty, Licznik, Rankingi, Sprzedawcy, Towary, Zamówienia, Zaplecze</em>. Po wybraniu pozycji <strong>Kasa sklepowa</strong>, system wyświetli okno <strong>Raporty</strong>.</p>
+</td>
+<td><a class="reference external" href="_zdj/7.1raporty.png"><img alt="zdj2" class="align-middle" src="../_images/7.1raporty.png" style="width: 356.5px; height: 230.5px;" /></a></td>
+</tr>
+<tr class="row-odd"><td>W oknie <strong>Raport sprzedaży i kasy głównej</strong>, użytkownik wybiera parametry według których raport zostanie przygotowany.
+Stałe elementy raportu i jego parametry : Sekcja: Operacja: <em>Data początkowa</em> – określa pierwszy dzień okresu, dla którego raport <strong>Raport sprzedaży i kasy głównej</strong> zostanie przygotowany. <em>Data końcowa</em> – określa ostatni dzień okresu, dla którego raport <strong>Raport sprzedaży i kasy głównej</strong> zostanie przygotowany.</td>
+<td><a class="reference external" href="_zdj/7.1raportsprz.png"><img alt="zdj4" class="align-middle" src="../_images/7.1raportsprz.png" style="width: 154.0px; height: 243.0px;" /></a></td>
+</tr>
+<tr class="row-even"><td>Po wybraniu żądanych parametrów raportu, w celu wyświetlenia <strong>Raport sprzedaży i kasy głównej</strong> należy wcisnąć przycisk <strong>Wykonaj</strong>.</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>System wyświetli raport według wybranych wcześniej parametrów. W celu wydrukowania <strong>Raportu sprzedaży i kasy głównej</strong> należy wcisnąć ikonę drukarki w górnym pasku zadań.</td>
+<td><a class="reference external" href="_zdj/7.1raportsprzwydruk.png"><img alt="zdj6" class="align-middle" src="../_images/7.1raportsprzwydruk.png" style="width: 405.5px; height: 253.0px;" /></a></td>
+</tr>
+<tr class="row-even"><td>W celu zapisania raportu na dysku, należy wybrać ikonę koperty, a następnie w oknie Export. Wybrać żądany rodzaj pliku, do którego raport zostanie wyeksportowany. Po dokonaniu wyboru należy nacisnąć przycisk <strong>OK</strong>, a następnie wskazać miejsce w którym raport ma zostać zapisany oraz podać jego nazwę i wcisnąć przycisk <strong>Zapisz</strong>.</td>
+<td><a class="reference external" href="_zdj/7.1export.png"><img alt="zdj7" class="align-middle" src="../_images/7.1export.png" style="width: 208.0px; height: 120.5px;" /></a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="raport-stan-towarow-na-dzien-zalegajacych">
+<h2>7.2 Raport - Stan towarów na dzień (zalegających)<a class="headerlink" href="#raport-stan-towarow-na-dzien-zalegajacych" title="Stały odnośnik do tego nagłówka">¶</a></h2>
+<p><strong>Raport Stan towarów na dzień (zalegających) generuje zestawienie prezentujące tempo sprzedaży poszczególnych towarów w ciągu czterech tygodni poprzedzających wybrany dzień oraz ich stan (zaleganie) w tym dniu.</strong></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="53%" />
+<col width="47%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><p class="first">W celu wykonania <strong>Stan towarów na dzień (zalegających)</strong>, należy w programie MenuXR wybrać zakładkę <em>Raporty systemu Retilia.Point</em>, a następnie wybrać pozycję <strong>Towary</strong>. System wyświetli okno <em>Raporty</em>, w którym należy wybrać <strong>Stan towarów na dzień (zalegających)</strong> i nacisnąć przycisk wykonaj.</p>
+<p class="last">Dostęp do raportu <strong>Stan towarów na dzień (zalegających)</strong> można uzyskać również w tej samej zakładce, wybierając pozycję Wszystkie. Po otwarciu okna Raporty, należy wybrać kategorię <strong>Towary</strong>. W tym przypadku, system umożliwi dostęp do wszystkich dziesięciu kategorii raportów generowanych przez system Retilia.Point: <em>Dokumenty, Kasa główna, Kasa sklepowa, Koszty, Licznik, Rankingi, Sprzedawcy, Towary, Zamówienia, Zaplecze.</em> Po wybraniu pozycji <strong>Towary</strong>, system wyświetli okno <strong>Raporty</strong>.</p>
+</td>
+<td><a class="reference external" href="_zdj/7.2raport.png"><img alt="zdj8" class="align-middle" src="../_images/7.2raport.png" style="width: 356.5px; height: 230.5px;" /></a></td>
+</tr>
+<tr class="row-even"><td>W oknie <strong>Stan towarów na dzień (zalegających)</strong>, użytkownik wybiera parametry według których raport zostanie przygotowany.</td>
+<td><a class="reference external" href="_zdj/7.2stanzal.png"><img alt="zdj9" class="align-middle" src="../_images/7.2stanzal.png" style="width: 279.0px; height: 272.0px;" /></a></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Sekcja: Towary</strong></p>
+<p><em>Stan</em> – wybiera towary pod względem stanów które zostaną wyświetlone.
+Możliwy wybór:</p>
+<ul class="simple">
+<li>Stan &lt;&gt;0 :wyświetli towary, których stan jest równy zero</li>
+<li>Stan &gt; 0 : wyświetli towary, których stan jest większy od zera</li>
+<li>Stan &lt; 0 : wyświetli towary, których stan jest mniejszy od zera</li>
+<li>Wszystkie : wyświetli wszystkie towary bez względu na ich stan.</li>
+</ul>
+<p><em>Grupa tow.</em> - wybiera towary ze wskazanej grupy towarowej. Zaznaczenie opcji “wszystkie“ spowoduje wybranie towarów ze wszystkich grup towarowych.
+<em>Grupa asort.</em> - wybiera towary ze wskazanej grupy asortymentowej zawartej w wybranej wcześniej grupie towarowej.</p>
+<p>Zaznaczenie opcji “wszystkie“ spowoduje wybranie towarów ze wszystkich grup asortymentowych.</p>
+<p><strong>Sekcja: Magazyny</strong></p>
+<p><em>Magazyny:</em> umożliwia wskazanie magazynów które zostaną uwzględnione w raporcie.
+Możliwy wybór: w zależności od zdefiniowanych w systemie magazynów.
+Wybranie opcji “wszystkie“ spowoduje wybranie towarów ze wszystkich zdefiniowanych w systemie magazynów.</p>
+<p><strong>Sekcja: Data</strong></p>
+<p><em>Data:</em> umożliwia wskazanie dnia, na który ma zostać przygotowany raport.</p>
+<p><strong>Sekcja: Dokumenty</strong></p>
+<p><em>Dokumenty:</em> umożliwia wskazanie dokumentów sprzedaży, które zostaną uwzględnione w raporcie. Domyślnie system wybierze wszystkie dokumenty sprzedaży
+Po wybraniu żądanych parametrów raportu, w celu wyświetlenia raportu należy wcisnąć przycisk <strong>Wykonaj</strong>.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="53%" />
+<col width="47%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>System wyświetli raport według wybranych wcześniej parametrów. W celu wydrukowania raportu należy wcisnąć ikonę drukarki, w górnym pasku zadań.</td>
+<td><a class="reference external" href="_zdj/7.2raportzal.png"><img alt="zdj10" class="align-middle" src="../_images/7.2raportzal.png" style="width: 407.5px; height: 279.0px;" /></a></td>
+</tr>
+</tbody>
+</table>
+<p>W celu zapisania raportu na dysku, należy wybrać ikonę koperty, a następnie w oknie Export wybrać żądany rodzaj pliku, do którego raport zostanie wyeksportowany. Po dokonaniu wyboru należy nacisnąć przycisk <strong>OK</strong>, a następnie wskazać miejsce w którym raport ma zostać zapisany oraz podać jego nazwę i wcisnąć przycisk <strong>Zapisz</strong>.</p>
+</div>
+<div class="section" id="utargi-raport">
+<h2>7.3 Utargi – raport<a class="headerlink" href="#utargi-raport" title="Stały odnośnik do tego nagłówka">¶</a></h2>
+<p><strong>Raport Utargi - raport generuje zestawienie sprzedanych towarów i usług pod kątem uzyskanego utargu, uwzględniając formy dokonanych płatności.</strong></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="53%" />
+<col width="47%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>W celu wykonania raportu <strong>Utargi - raport</strong>, należy w programie MenuXR wybrać zakładkę <strong>Raporty systemu Retilia.Point</strong>, a następnie wybrać pozycję <em>Kasa sklepowa</em>. System wyświetli okno <strong>Raporty</strong>, w którym należy wybrać <strong>Utargi - raport</strong> i nacisnąć przycisk wykonaj.</td>
+<td><a class="reference external" href="_zdj/7.3retmenu.png"><img alt="zdj11" class="align-middle" src="../_images/7.3retmenu.png" style="width: 493.0px; height: 346.5px;" /></a></td>
+</tr>
+<tr class="row-even"><td>Raportu <strong>Utargi - raport</strong> można uzyskać również w tej samej zakładce, wybierając pozycję <strong>Wszystkie</strong>. Po otwarciu okna <strong>Raporty</strong>, należy wybrać kategorię <strong>Kasa sklepowa</strong>. W tym przypadku, system umożliwi dostęp do wszystkich dziesięciu kategorii raportów generowanych przez system Retilia.Point: <em>Dokumenty, Kasa główna, Kasa sklepowa, Koszty, Licznik, Rankingi, Sprzedawcy, Towary, Zamówienia, Zaplecze</em>. Po wybraniu pozycji <em>Kasa sklepowa</em>, pokaże się okno <strong>Raporty</strong>, w którym należy wybrać <em>Utargi - raport</em> i nacisnąć przycisk <strong>Wykonaj</strong>.</td>
+<td><a class="reference external" href="_zdj/7.3raportutarg.png"><img alt="zdj12" class="align-middle" src="../_images/7.3raportutarg.png" style="width: 356.5px; height: 254.5px;" /></a></td>
+</tr>
+<tr class="row-odd"><td>W oknie <strong>Utargi - raport</strong> użytkownik wybiera parametry według których raport zostanie przygotowany.</td>
+<td><a class="reference external" href="_zdj/7.3raportutarg2.png"><img alt="zdj13" class="align-middle" src="../_images/7.3raportutarg2.png" style="width: 279.0px; height: 249.5px;" /></a></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Sekcja: Dokument / Magazyn</strong></p>
+<p><em>Dokumenty</em> - umożliwia wskazanie dokumentów sprzedaży, które zostaną uwzględnione w raporcie. Domyślnie system wybierze wszystkie dokumenty sprzedaży.</p>
+<p><em>Data początkowa</em> – określa pierwszy dzień okresu, dla którego raport Utargi – raport zostanie przygotowany</p>
+<p><em>Data końcowa</em> – określa ostatni dzień okresu, dla którego raport Utargi – raport zostanie przygotowany</p>
+<p><em>Magazyny</em> - umożliwia wskazanie magazynów które zostaną uwzględnione w raporcie. W zależności od zdefiniowanych w systemie magazynów. Wybranie opcji “wszystkie“ spowoduje wybranie towarów ze wszystkich zdefiniowanych w systemie magazynów.</p>
+<p><strong>Sekcja: Towary</strong></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="53%" />
+<col width="47%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><p class="first"><em>Grupa tow.</em> - wybiera towary ze wskazanej grupy towarowej. Zaznaczenie opcji “wszystkie“ spowoduje wybranie towarów ze wszystkich grup towarowych.</p>
+<p class="last"><em>Grupa asort.</em> - wybiera towary ze wskazanej grupy asortymentowej zawartej w wybranej wcześniej grupie towarowej. Zaznaczenie opcji “wszystkie“ spowoduje wybranie towarów ze wszystkich grup asortymentowych.</p>
+</td>
+<td><a class="reference external" href="_zdj/7.3utargtow.png"><img alt="zdj14" class="align-middle" src="../_images/7.3utargtow.png" style="width: 279.0px; height: 122.5px;" /></a></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Sekcja: Typ Ceny</strong></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="53%" />
+<col width="47%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><blockquote class="first">
+<div><em>Typ ceny</em> – wskazuje rodzaj cen ujętych w raporcie</div></blockquote>
+<p class="last">Możliwy wybór:
+- brutto : wyświetli towary w cenach brutto
+- netto : wyświetli towary w cenach netto</p>
+</td>
+<td><a class="reference external" href="_zdj/7.3utargtowcen.png"><img alt="zdj15" class="align-middle" src="../_images/7.3utargtowcen.png" style="width: 131.5px; height: 110.5px;" /></a></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Sekcja: Dokumenty podstawowe</strong></p>
+<p><em>Dokumenty podstawowe</em> – wskazuje rodzaj dokumentów ujętych w raporcie.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="53%" />
+<col width="47%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td colspan="2"><p class="first">Możliwy wybór:</p>
+<ul class="last simple">
+<li>rozchodowe: wyświetli raport biorąc pod uwagę dokumenty rozchodowe</li>
+<li>przychodowe: wyświetli raport biorąc pod uwagę dokumenty przychodowe</li>
+</ul>
+</td>
+</tr>
+<tr class="row-even"><td><p class="first">Po wybraniu żądanych parametrów raportu w celu wyświetlenia raportu <strong>Utargi - raport</strong> należy wcisnąć przycisk <strong>Wykonaj</strong>.</p>
+<p class="last">System wyświetli raport według wybranych wcześniej parametrów. W celu wydrukowania raportu należy wcisnąć ikonę drukarki, w górnym pasku zadań.</p>
+</td>
+<td><a class="reference external" href="_zdj/7.3wydrukrap.png"><img alt="zdj17" class="align-middle" src="../_images/7.3wydrukrap.png" style="width: 405.0px; height: 310.0px;" /></a></td>
+</tr>
+<tr class="row-odd"><td>W celu zapisania raportu na dysku, należy wybrać ikonę koperty, a następnie w oknie <strong>Export</strong> wybrać żądany rodzaj pliku, do którego raport zostanie wyeksportowany. Po dokonaniu wyboru należy nacisnąć przycisk <strong>OK</strong>, a następnie wskazać miejsce w którym raport ma zostać zapisany oraz podać jego nazwę i wcisnąć przycisk <strong>Zapisz</strong>.</td>
+<td><a class="reference external" href="_zdj/7.3export.png"><img alt="zdj18" class="align-middle" src="../_images/7.3export.png" style="width: 208.0px; height: 120.5px;" /></a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="ranking-towarow">
+<h2>7.4 Ranking towarów<a class="headerlink" href="#ranking-towarow" title="Stały odnośnik do tego nagłówka">¶</a></h2>
+<p>Ranking towarów generuje zestawienie najlepiej  i najgorzej sprzedających się towarów w określonym przedziale czasu.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="53%" />
+<col width="47%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>W celu wykonania raportu Ranking towarów, należy w programie MenuXR wybrać zakładkę <strong>Raporty systemu Retilia.Point</strong>, a następnie wybrać pozycję Rankingi. System wyświetli okno <em>Raporty</em>, w którym należy wybrać <em>Ranking towarów</em> i nacisnąć przycisk <strong>Wykonaj</strong>.</td>
+<td><a class="reference external" href="_zdj/7.4retmenu.png"><img alt="zdj19" class="align-middle" src="../_images/7.4retmenu.png" style="width: 493.0px; height: 346.5px;" /></a></td>
+</tr>
+<tr class="row-even"><td>Dostęp do raportu Ranking towarów można uzyskać również w tej samej zakładce, wybierając pozycję Wszystkie. Po otwarciu okna Raporty, należy wybrać kategorię Rankingi. W tym przypadku, system umożliwi dostęp do wszystkich dziesięciu kategorii raportów generowanych przez system Retilia.Point: <em>Dokumenty, Kasa główna, Kasa sklepowa, Koszty, Licznik, Rankingi, Sprzedawcy, Towary, Zamówienia, Zaplecze</em>. Po wybraniu pozycji Rankingi, system wyświetli okno <strong>Raporty</strong>.</td>
+<td><a class="reference external" href="_zdj/7.4raportrank.png"><img alt="zdj20" class="align-middle" src="../_images/7.4raportrank.png" style="width: 356.5px; height: 254.5px;" /></a></td>
+</tr>
+<tr class="row-odd"><td>W oknie Ranking towarów użytkownik wybiera parametry według których raport zostanie przygotowany.</td>
+<td><a class="reference external" href="_zdj/7.4ranktow.png"><img alt="zdj21" class="align-middle" src="../_images/7.4ranktow.png" style="width: 430.0px; height: 259.5px;" /></a></td>
+</tr>
+</tbody>
+</table>
+<p>Stałe elementy raportu i jego parametry :</p>
+<p><strong>Sekcja: Dokument / Magazyn</strong></p>
+<p><em>Data początkowa</em> – określa pierwszy dzień okresu, dla którego raport Ranking towarów zostanie przygotowany</p>
+<p><em>Data końcowa</em> – określa ostatni dzień okresu, dla którego raport Ranking towarów zostanie przygotowany</p>
+<p><em>Magazyny</em> - umożliwia wskazanie magazynów które zostaną uwzględnione w raporcie. Wybranie opcji “wszystkie“ spowoduje wybranie towarów ze wszystkich zdefiniowanych w systemie magazynów.</p>
+<p><strong>Sekcja: Towary</strong></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="53%" />
+<col width="47%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>Grupa tow. - wybiera towary ze wskazanej grupy towarowej. Zaznaczenie opcji “wszystkie“ spowoduje wybranie towarów ze wszystkich grup towarowych.</td>
+<td><a class="reference external" href="_zdj/7.4ranktowgroup.png"><img alt="zdj22" class="align-middle" src="../_images/7.4ranktowgroup.png" style="width: 430.0px; height: 259.5px;" /></a></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Sekcja: Rodzaj Ceny</strong></p>
+<p><em>Rodzaj ceny</em> – wskazuje rodzaj cen ujętych w raporcie</p>
+<blockquote>
+<div>Możliwy wybór:</div></blockquote>
+<ul class="simple">
+<li>sprzedaży: wyświetli towary w cenach sprzedaży</li>
+<li>zakupu : wyświetli towary w cenach zakupu</li>
+</ul>
+<p><strong>Sekcja: Typ Ceny</strong></p>
+<p><em>Typ ceny</em> – wskazuje rodzaj cen ujętych w raporcie</p>
+<blockquote>
+<div>Możliwy wybór:</div></blockquote>
+<ul class="simple">
+<li>brutto : wyświetli towary w cenach brutto</li>
+<li>netto : wyświetli towary w cenach netto</li>
+</ul>
+<p><strong>Sekcja: Forma zestawienia</strong></p>
+<p><em>Rodzaj</em> – wskazuje sposób oraz zakres prezentacji danych</p>
+<blockquote>
+<div>Możliwy wybór:</div></blockquote>
+<ul class="simple">
+<li>wg ilości : wyświetli zestawienie wg ilości towarów</li>
+<li>wg wartości : wyświetli zestawienie wg wartości transakcji</li>
+<li>wg marży : wyświetli zestawienie wg marży</li>
+</ul>
+<p><em>Kolejność</em> – wskazuje sposób oraz zakres prezentacji danych.</p>
+<blockquote>
+<div>Możliwy wybór:</div></blockquote>
+<ul class="simple">
+<li>najlepsze : wyświetli zestawienie najlepszych towarów</li>
+<li>najgorsze : wyświetli zestawienie najgorszych towarów</li>
+<li>liczba pozycji: wskazuje ilość towarów, które będą ujęte w raporcie.</li>
+</ul>
+<p>Po wybraniu żądanych parametrów raportu w celu wyświetlenia należy wcisnąć przycisk <strong>Wykonaj</strong>.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="53%" />
+<col width="47%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>System wyświetli raport według wybranych wcześniej parametrów. W celu wydrukowania raportu należy wcisnąć ikonę drukarki w górnym pasku zadań.</td>
+<td><a class="reference external" href="_zdj/7.wydrukrank.png"><img alt="zdj23" class="align-middle" src="../_images/7.4wydrukrank.png" style="width: 407.0px; height: 307.0px;" /></a></td>
+</tr>
+<tr class="row-even"><td>W celu zapisania raportu na dysku, należy wybrać ikonę koperty, a następnie w oknie <strong>Export</strong>. wybrać żądany rodzaj pliku, do którego raport zostanie wyeksportowany. Po dokonaniu wyboru należy nacisnąć przycisk <strong>OK</strong>, a następnie wskazać miejsce w którym raport ma zostać zapisany oraz podać jego nazwę i wcisnąć przycisk <strong>Zapisz</strong>.</td>
+<td><a class="reference external" href="_zdj/7.4export.png"><img alt="zdj24" class="align-middle" src="../_images/7.4export.png" style="width: 208.0px; height: 120.5px;" /></a></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="graf.html" class="btn btn-neutral float-right" title="8.Graficzna prezentacja danych" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="dokumag.html" class="btn btn-neutral" title="6. Dokumenty magazynowe" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2016, Retilia Sp. z o.o..
+
+    </p>
+  </div> 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'1.0',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+      <script type="text/javascript" src="../_static/translations.js"></script>
+      <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

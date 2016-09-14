@@ -1,0 +1,423 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>1. Słownik towarów &mdash; Instrukcja Systemu Retilia.Point</title>
+  
+
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+    <link rel="top" title="Instrukcja Systemu Retilia.Point" href="../index.html"/>
+        <link rel="next" title="2. Baza kontrahentów w systemie Retilia.Point" href="dane.html"/>
+        <link rel="prev" title="Instrukcja systemu Retilia.Point" href="../index.html"/> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Instrukcja Retilia.Point
+          
+
+          
+            
+            <img src="../_static/retilia_logo.jpg" class="logo" />
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+                <ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">1. Słownik towarów</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#dopisywanie-nowego-towaru">1.1 Dopisywanie nowego towaru</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#poprawianie-informacji-o-towarze">1.2 Poprawianie informacji o towarze</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#prezentacja-listy-towarow">1.3 Prezentacja listy towarów</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#uzyskiwanie-szczegolowych-informacji-o-towarze">1.4 Uzyskiwanie szczegółowych informacji o towarze</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#usuwanie-pozycji-z-listy-towarow">1.5 Usuwanie pozycji z listy towarów</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#grupy-towarowe-i-grupy-asortymentowe">1.6 Grupy towarowe i grupy asortymentowe</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="dane.html">2. Baza kontrahentów w systemie Retilia.Point</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doku.html">3. Dokumenty w systemie Retilia.Point</a></li>
+<li class="toctree-l1"><a class="reference internal" href="sprz.html">4. Sprzedaż</a></li>
+<li class="toctree-l1"><a class="reference internal" href="kasa.html">5. Kasa Główna</a></li>
+<li class="toctree-l1"><a class="reference internal" href="dokumag.html">6. Dokumenty magazynowe</a></li>
+<li class="toctree-l1"><a class="reference internal" href="rap.html">7.Raporty w systemie Retilia.Point</a></li>
+<li class="toctree-l1"><a class="reference internal" href="graf.html">8.Graficzna prezentacja danych</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../index.html">Instrukcja Retilia.Point</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+ 
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../index.html">Docs</a> &raquo;</li>
+      
+    <li>1. Słownik towarów</li>
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../_sources/_main/slow.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="slownik-towarow">
+<h1><a class="toc-backref" href="#id1">1. Słownik towarów</a><a class="headerlink" href="#slownik-towarow" title="Stały odnośnik do tego nagłówka">¶</a></h1>
+<p>Słownik towarów to zbiór danych o towarach przechowywanych w bazie systemu Retilia.Point.</p>
+<div class="contents topic" id="spis-tresci">
+<p class="topic-title first">Spis treści</p>
+<ul class="simple">
+<li><a class="reference internal" href="#slownik-towarow" id="id1">1. Słownik towarów</a><ul>
+<li><a class="reference internal" href="#dopisywanie-nowego-towaru" id="id2">1.1 Dopisywanie nowego towaru</a></li>
+<li><a class="reference internal" href="#poprawianie-informacji-o-towarze" id="id3">1.2 Poprawianie informacji o towarze</a></li>
+<li><a class="reference internal" href="#prezentacja-listy-towarow" id="id4">1.3 Prezentacja listy towarów</a></li>
+<li><a class="reference internal" href="#uzyskiwanie-szczegolowych-informacji-o-towarze" id="id5">1.4 Uzyskiwanie szczegółowych informacji o towarze</a></li>
+<li><a class="reference internal" href="#usuwanie-pozycji-z-listy-towarow" id="id6">1.5 Usuwanie pozycji z listy towarów</a></li>
+<li><a class="reference internal" href="#grupy-towarowe-i-grupy-asortymentowe" id="id7">1.6 Grupy towarowe i grupy asortymentowe</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="dopisywanie-nowego-towaru">
+<h2><a class="toc-backref" href="#id2">1.1 Dopisywanie nowego towaru</a><a class="headerlink" href="#dopisywanie-nowego-towaru" title="Stały odnośnik do tego nagłówka">¶</a></h2>
+<p><strong>W celu wprowadzenia nowego towaru wraz z danymi o nim, do bazy systemu Retilia.Point, należy ten towar dopisać w systemie Retilia.Point. Poniżej opisany jest sposób w jaki dodaje się nowy towar w systemie Retilia.Point oraz metody zarządzania słownikiem towarów.</strong></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>W celu dodania nowego towaru, należy wcisnąć przycisk <strong>Dodaj</strong> w oknie <strong>Lista towarów</strong> (MenuXR - Lista towarów  - Dodaj).</td>
+<td><a class="reference external" href="_zdj/1.1DaneTowaru.png"><img alt="zdj1" class="align-middle" src="../_images/1.1DaneTowaru.png" style="width: 359.0px; height: 326.5px;" /></a></td>
+</tr>
+<tr class="row-even"><td>W oknie <strong>Dane towaru</strong> należy wpisać dane dla nowego towaru. Do tego celu służą poszczególne pola tekstowe w głównym oknie jak i w poszczególnych zakładkach (Główne, Rozmiary, Opisy, Tabele rozmiarowe, Gabaryty, Magazyny, Internet, Opis dodatkowy). Dane towaru wprowadzone w tym miejscu są następnie wykorzystywane przez system w każdej sytuacji, gdy towar będzie przedmiotem jakiejkolwiek operacji dokonywanej w systemie.</td>
+<td><a class="reference external" href="_zdj/1.1DaneTowaru1.png"><img alt="zdj2" class="align-middle" src="../_images/1.1DaneTowaru1.png" style="width: 359.0px; height: 326.5px;" /></a></td>
+</tr>
+<tr class="row-odd"><td>Dla ułatwienia procesu wprowadzania nowego towaru, dane opisujące towar zostały posegregowane w sześciu zakładkach. W zakładce <strong>Główne</strong> należy podać podstawowe dane opisujące towar: kod paskowy, miarę, ew. kod paskowy opakowania, stawkę VAT oraz minimalny i maksymalny stan zapasów (o ile stan magazynowy dla wprowadzanego towaru będzie kontrolowany automatycznie.</td>
+<td><a class="reference external" href="_zdj/1.1DaneTowaru1.png"><img alt="zdj3" class="align-middle" src="../_images/1.1DaneTowaru1.png" style="width: 359.0px; height: 326.5px;" /></a></td>
+</tr>
+<tr class="row-even"><td>Zakładka <strong>Rozmiary</strong> umożliwia podanie informacji o rozmiarach i innych cechach charakteryzujących towar, które użytkownik może zdefiniować (np. kolor). System Retilia.Point umożliwia zdefiniowanie do czternastu cech rozmiarówkowych.</td>
+<td><a class="reference external" href="_zdj/1.1DaneTowaruroz.png"><img alt="zdj4" class="align-middle" src="../_images/1.1DaneTowaruroz.png" style="width: 359.0px; height: 326.0px;" /></a></td>
+</tr>
+<tr class="row-odd"><td>Zakładka <strong>Opisy</strong> umożliwia podanie dodatkowych informacji opisujących towar. Użytkownik może zdefiniować do 14 cech opisowych (np. producent, kategoria zastosowania).</td>
+<td><a class="reference external" href="_zdj/1.1DaneTowaruopis.png"><img alt="zdj5" class="align-middle" src="../_images/1.1DaneTowaruopis.png" style="width: 359.0px; height: 326.0px;" /></a></td>
+</tr>
+<tr class="row-even"><td>W zakładce <strong>Tabele rozmiarowe</strong>, użytkownik definiuje cechy towaru, takie jak kolor czy rozmiar.</td>
+<td><a class="reference external" href="_zdj/1.1DaneTowarutabroz.png"><img alt="zdj6" class="align-middle" src="../_images/1.1DaneTowarutabroz.png" style="width: 359.0px; height: 326.0px;" /></a></td>
+</tr>
+<tr class="row-odd"><td>W zakładce <strong>Gabaryty</strong>, użytkownik wprowadza wymiary oraz masę nowego towaru. Dane te mogą zostać wykorzystywane przy planowaniu transportu do klienta lub zagospodarowywaniu przestrzeni magazynowej.</td>
+<td><a class="reference external" href="_zdj/1.1DaneTowarugab.png"><img alt="zdj7" class="align-middle" src="../_images/1.1DaneTowarugab.png" style="width: 359.0px; height: 326.0px;" /></a></td>
+</tr>
+<tr class="row-even"><td>Zakładka <strong>Magazyn</strong> służy do wprowadzenia informacji na temat miejsca składowania towaru. Użytkownik może wprowadzić w tym oknie dane na temat numeru lub nazwy magazynu, budynku, pomieszczenia, regału oraz półki, na której towar jest magazynowany.</td>
+<td><a class="reference external" href="_zdj/1.1DaneTowarumag.png"><img alt="zdj8" class="align-middle" src="../_images/1.1DaneTowarumag.png" style="width: 359.0px; height: 326.0px;" /></a></td>
+</tr>
+<tr class="row-odd"><td>W zakładce <strong>Internet</strong>, użytkownik określa odwołanie dla opisywanego towaru do strony lub pliku w Internecie, które zawierają dodatkowe, szczegółowe dane na temat towaru, a także pliku zawierającego rysunek lub zdjęcie towaru.</td>
+<td><a class="reference external" href="_zdj/1.1DaneTowaruint.png"><img alt="zdj9" class="align-middle" src="../_images/1.1DaneTowaruint.png" style="width: 359.0px; height: 326.0px;" /></a></td>
+</tr>
+<tr class="row-even"><td>W zakładce <strong>Opis dodatkowy</strong> pozwala na umieszczenie wszelkich dodatkowych informacji o produkcie.</td>
+<td><a class="reference external" href="_zdj/1.1DaneTowaruopisdod.png"><img alt="zdj10" class="align-middle" src="../_images/1.1DaneTowaruopisdod.png" style="width: 359.0px; height: 326.0px;" /></a></td>
+</tr>
+<tr class="row-odd"><td>Dopisywany towar musi zostać przydzielony do grupy towarowej lub asortymentowej aby móc go zapisać w bazie Retilia.Point. W tym celu należy rozwinąć listę <strong>Grupa towarowa</strong> i wybrać odpowiednią grupę dla dopisywanego towaru.</td>
+<td><a class="reference external" href="_zdj/1.1DaneTowarugrtow.png"><img alt="zdj11" class="align-middle" src="../_images/1.1DaneTowarugrtow.png" style="width: 359.0px; height: 326.0px;" /></a></td>
+</tr>
+</tbody>
+</table>
+<p>Po wprowadzeniu danych towaru, należy nacisnąć przycisk OK, towar zostanie automatycznie zapisany w bazie Retilia.Point.</p>
+</div>
+<div class="section" id="poprawianie-informacji-o-towarze">
+<h2><a class="toc-backref" href="#id3">1.2 Poprawianie informacji o towarze</a><a class="headerlink" href="#poprawianie-informacji-o-towarze" title="Stały odnośnik do tego nagłówka">¶</a></h2>
+<p><strong>Poprawianie informacji o towarze umożliwia wprowadzenie zmian w bazie Retilia.Point dla określonego towaru.</strong></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>W celu wprowadzenia zmian, należy odnaleźć żądany towar w oknie <strong>Lista towarów</strong> za pomocą funkcji <strong>Filtruj</strong> (Wyszukiwanie i filtrowanie towarów) lub wyświetlić towary z listy towarowej (Prezentacja listy towarowej) i odnaleźć na niej żądany towar. Następnie należy wybrać go klikając lewym klawiszem myszy lub używając klawiszy strzałek na klawiaturze i nacisnąć przycisk <strong>Pokaż</strong>. W oknie <strong>Dane towaru</strong> należy wcisnąć przycisk <strong>Edytuj</strong>.</td>
+<td><a class="reference external" href="_zdj/1.2edytuj.png"><img alt="zdj12" class="align-middle" src="../_images/1.2edytuj.png" style="width: 359.0px; height: 326.5px;" /></a></td>
+</tr>
+<tr class="row-even"><td>Po wprowadzeniu zmian, w celu zapamiętania ich w systemie należy nacisnąć przycisk <strong>OK</strong>.</td>
+<td><a class="reference external" href="_zdj/1.2edytujok.png"><img alt="zdj13" class="align-middle" src="../_images/1.2edytujok.png" style="width: 359.0px; height: 326.5px;" /></a></td>
+</tr>
+</tbody>
+</table>
+<div class="admonition warning">
+<p class="first admonition-title">Ostrzeżenie</p>
+<p class="last">Uwaga! Dostęp do poprawiania informacji o towarze zależy od uprawnień jakie posiada dany użytkownik. W razie braku możliwości edycji danych dotyczących wybranego towaru, należy wylogować się z systemu i uruchomić go ponownie, logując się jako użytkownik, który posiada szersze uprawnienia (np. Administrator, Kierownik lub Dyrektor – w zależności od konfiguracji systemu).</p>
+</div>
+</div>
+<div class="section" id="prezentacja-listy-towarow">
+<h2><a class="toc-backref" href="#id4">1.3 Prezentacja listy towarów</a><a class="headerlink" href="#prezentacja-listy-towarow" title="Stały odnośnik do tego nagłówka">¶</a></h2>
+<p><strong>Lista towarów zawiera spis pozycji towarowych w systemie Retilia.Point. W celu uzyskania dostępu do Listy towarów należy wykonać następujące kroki:</strong></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>W głównym oknie programu Retilia.Point należy wybrać zakładkę <strong>Kasa Fiskalna</strong>, a następnie <strong>Przeglądanie</strong> oraz <strong>Lista towarów</strong>.</td>
+<td><a class="reference external" href="_zdj/1.3menu1.png"><img alt="zdj14" class="align-middle" src="../_images/1.3menu1.png" style="width: 566.0px; height: 352.5px;" /></a></td>
+</tr>
+<tr class="row-even"><td>Po wybraniu pozycji <strong>Lista Towarów</strong>, uruchomiony zostanie program ltow.exe.</td>
+<td><a class="reference external" href="_zdj/1.3ltow.png"><img alt="zdj15" class="align-middle" src="../_images/1.3ltow.png" style="width: 449.0px; height: 357.5px;" /></a></td>
+</tr>
+<tr class="row-odd"><td><p class="first">Zakres towarów które będą prezentowane na ekranie, określa użytkownik za pomocą parametrów, które należy podać w górnej części okna, w sekcji Filtr.</p>
+<p>Wybór towarów może zostać dokonany za pomocą (jednej lub kilku) następujących zmiennych:</p>
+<ul class="last simple">
+<li><strong>Parametr</strong> – rekord unikalny dla danego towaru lub grupy towarów.</li>
+<li><strong>Nazwa</strong> – nazwa towaru (np. Plazma).</li>
+<li><strong>Kod paskowy towaru</strong> - kod towaru.</li>
+<li><strong>Grupa tow.</strong> - przynależność do grupy towarowej (np. R – dla RTV).</li>
+<li><strong>Grupa asortym.</strong> - przynależność do grupy asortymentowej .</li>
+</ul>
+</td>
+<td><p class="first"><a class="reference external" href="_zdj/1.3ltow.png"><img alt="zdj16" class="align-middle" src="../_images/1.3ltow.png" style="width: 449.0px; height: 357.5px;" /></a></p>
+<p class="last">Po wybraniu zmiennych, należy wcisnąć klawisz <strong>Filtruj</strong>.</p>
+</td>
+</tr>
+<tr class="row-even"><td><strong>Wyczyść pola</strong> – kasuje zawartość wymienionych wyżej pól.</td>
+<td><a class="reference external" href="_zdj/1.3ltowfilwycz.png"><img alt="zdj17" class="align-middle" src="../_images/1.3ltowfilwycz.png" style="width: 449.0px; height: 346.0px;" /></a></td>
+</tr>
+<tr class="row-odd"><td><strong>Zaawansowane</strong> – umożliwia dostęp do zaawansowanych zmiennych wyszukiwania, jak np.: cena, ilość sztuk, kolor i inne. Aby powrócić do poprzedniego widoku, należy ponownie nacisnąć przycisk <strong>Zaawansowane</strong>.</td>
+<td><a class="reference external" href="_zdj/1.3ltowzaw.png"><img alt="zdj18" class="align-middle" src="../_images/1.3ltowzaw.png" style="width: 449.0px; height: 346.0px;" /></a></td>
+</tr>
+<tr class="row-even"><td><p class="first">Lista towarów umożliwia sortowanie towarów w kolumnach według nagłówka kolumny (malejąco lub rosnąco). Naciśniecie nagłówka kolumny sortuje wyświetlone towary według nazwy kolumny.</p>
+<p>Nazwy kolumn które będą wyświetlane, użytkownik określa w oknie <strong>Dostosuj widok</strong> (Dostosuj, zakładka Kolumny).</p>
+<p class="last">Zakładka <strong>Kolory</strong> w tym samym oknie umożliwia dostosowanie wyglądu okna do potrzeb użytkownika</p>
+</td>
+<td><a class="reference external" href="_zdj/1.3ltowsort.png"><img alt="zdj19" class="align-middle" src="../_images/1.3ltowsort.png" style="width: 514.0px; height: 346.0px;" /></a></td>
+</tr>
+<tr class="row-odd"><td>Lista towarów umożliwia dostęp do informacji o aktualnych stanach magazynowych dla wyświetlanych towarów. W celu uzyskania powyższych informacji, należy nacisnąć klawisz <strong>Stany magazynowe</strong>.</td>
+<td><a class="reference external" href="_zdj/1.3ltowstan.png"><img alt="zdj20" class="align-middle" src="../_images/1.3ltowstan.png" style="width: 514.0px; height: 346.0px;" /></a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="uzyskiwanie-szczegolowych-informacji-o-towarze">
+<h2><a class="toc-backref" href="#id5">1.4 Uzyskiwanie szczegółowych informacji o towarze</a><a class="headerlink" href="#uzyskiwanie-szczegolowych-informacji-o-towarze" title="Stały odnośnik do tego nagłówka">¶</a></h2>
+<p><strong>Uzyskiwanie szczegółowych informacji o towarze umożliwia zapoznanie się z danymi na temat wybranego towaru zapisanymi w bazie systemu Retilia.Point.</strong></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>W celu usunięcia pozycji z listy towarów należy odnaleźć żądany towar w oknie <strong>Lista towarów</strong> za pomocą funkcji Filtruj lub wyświetlić towary z listy towarowej i odnaleźć na niej żądany towar. Następnie należy wybrać go klikając lewym klawiszem myszy lub używając klawiszy strzałek na klawiaturze i nacisnąć przycisk <strong>Pokaż</strong>.</td>
+<td><a class="reference external" href="_zdj/1.4ltowpok.png"><img alt="zdj21" class="align-middle" src="../_images/1.4ltowpok.png" style="width: 514.0px; height: 346.0px;" /></a></td>
+</tr>
+<tr class="row-even"><td>System prezentuje dane na temat wybranego towaru w oknie <strong>Dane towaru</strong>. Po obejrzeniu danych towaru należy wcisnąć przycisk <strong>Zamknij</strong>.</td>
+<td><a class="reference external" href="_zdj/1.4ltowzam.png"><img alt="zdj22" class="align-middle" src="../_images/1.4ltowzam.png" style="width: 359.0px; height: 326.5px;" /></a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="usuwanie-pozycji-z-listy-towarow">
+<h2><a class="toc-backref" href="#id6">1.5 Usuwanie pozycji z listy towarów</a><a class="headerlink" href="#usuwanie-pozycji-z-listy-towarow" title="Stały odnośnik do tego nagłówka">¶</a></h2>
+<p><strong>Usuwanie pozycji z listy towarów ma na celu wykasowanie danych dotyczących wybranego towaru z bazy systemu Retilia.Point.</strong></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>W celu usunięcia pozycji z listy towarów należy odnaleźć żądany towar w oknie <strong>Lista towarów</strong> za pomocą funkcji <strong>Filtruj</strong> lub wyświetlić towary z listy towarowej i odnaleźć na niej żądany towar. Następnie należy wybrać go klikając lewym klawiszem myszy lub używając klawiszy strzałek na klawiaturze i nacisnąć przycisk <strong>Usuń</strong>. W celu potwierdzenia zamiaru usunięcia pozycji z listy towarów należy wcisnąć przycisk <strong>OK</strong>.</td>
+<td><a class="reference external" href="_zdj/1.5staryltow.png"><img alt="zdj23" class="align-middle" src="../_images/1.5staryltow.png" style="width: 456.0px; height: 357.0px;" /></a></td>
+</tr>
+</tbody>
+</table>
+<div class="admonition warning">
+<p class="first admonition-title">Ostrzeżenie</p>
+<p class="last">Dostęp do usuwania pozycji z listy towarów zależy od uprawnień jakie posiada dany użytkownik. W razie braku możliwości usunięcia danych dotyczących wybranego towaru, należy wylogować się z systemu i uruchomić go ponownie, logując się jako użytkownik, który posiada szersze uprawnienia (np. Administrator, Kierownik lub Dyrektor – w zależności od konfiguracji systemu).</p>
+</div>
+<p><strong>Uwaga!</strong> Dostęp do usuwania pozycji z listy towarów zależy od uprawnień jakie posiada dany użytkownik. W razie braku możliwości usunięcia danych dotyczących wybranego towaru, należy wylogować się z systemu i uruchomić go ponownie, logując się jako użytkownik, który posiada szersze uprawnienia (np. Administrator, Kierownik lub Dyrektor – w zależności od konfiguracji systemu).</p>
+</div>
+<div class="section" id="grupy-towarowe-i-grupy-asortymentowe">
+<h2><a class="toc-backref" href="#id7">1.6 Grupy towarowe i grupy asortymentowe</a><a class="headerlink" href="#grupy-towarowe-i-grupy-asortymentowe" title="Stały odnośnik do tego nagłówka">¶</a></h2>
+<p><strong>W systemie jest możliwość zagnieżdżania grup asortymentowych aż do 10 poziomów. Pierwszy poziom stanowi grupa towarowa, drugi poziom stanowią grupy asortymentowe, a następne są coraz bardziej szczegółowymi podgrupami asortymentowymi.</strong></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>Rozwijanie kolejnych poziomów grup uzyskujemy klikając znak ”+” przed opisem grupy.</td>
+<td><a class="reference external" href="_zdj/1.6grtow.png"><img alt="zdj24" class="align-middle" src="../_images/1.6grtow.png" style="width: 320.0px; height: 272.0px;" /></a></td>
+</tr>
+<tr class="row-even"><td>Ta klasyfikacja towarów jest wykorzystywana przy filtrowaniu towarów na Liście towarowej, ale także przy generowaniu raportów. Można wybrać dowolny zestaw grup asortymentowych bez względu na poziom zagnieżdżenia.</td>
+<td><a class="reference external" href="_zdj/1.6rejvat.png"><img alt="zdj25" class="align-middle" src="../_images/1.6rejvat.png" style="width: 438.5px; height: 376.5px;" /></a></td>
+</tr>
+<tr class="row-odd"><td><p class="first"><strong>Dopisywanie grup</strong></p>
+<p class="last"><strong>a)</strong> Z okna Grupy towarowe i asortymentowe uruchomić funkcję pod klawiszem Dodaj (grupa tow.) i wprowadzić nową grupę do systemu. Program nie pozwoli na wprowadzenie drugiej grupy o takim samym symbolu.</p>
+</td>
+<td><a class="reference external" href="_zdj/1.6grtownowa.png"><img alt="zdj261" class="align-middle" src="../_images/1.6grtownowa.png" style="width: 213.0px; height: 272.0px;" /></a></td>
+</tr>
+<tr class="row-even"><td><p class="first"><strong>b)</strong> Grupy asortymentowe wprowadzamy klikając klawisz Dodaj (grupa asort.), mając podświetloną grupę towarową, do której chcemy dopisać grupy asortymentowe.</p>
+<p class="last">Dla każdej grupy asortymentowej można zaznaczyć cechy charakteryzujące towary w danej grupie, np. kolor lub rozmiar lub tkanina.</p>
+</td>
+<td><a class="reference external" href="_zdj/1.6grasnowa.png"><img alt="zdj263" class="align-middle" src="../_images/1.6grasnowa.png" style="width: 289.0px; height: 297.0px;" /></a></td>
+</tr>
+<tr class="row-odd"><td><strong>c)</strong> W ramach grupy asortymentowej możemy wprowadzić kolejne podgrupy, zagnieżdżając je w dół maksymalnie do ośmiu poziomów.</td>
+<td><a class="reference external" href="_zdj/1.6graspodgrp1.png"><img alt="zdj265" class="align-middle" src="../_images/1.6graspodgrp1.png" style="width: 327.5px; height: 143.5px;" /></a></td>
+</tr>
+<tr class="row-even"><td><strong>d)</strong> W efekcie możemy ułożyć bardzo szczegółową klasyfikację towarów w podziale na asortymenty, producentów, kolory, rozmiary itd.</td>
+<td><a class="reference external" href="_zdj/1.6grtownowa.png"><img alt="zdj266" class="align-middle" src="../_images/1.6grtownowa.png" style="width: 213.0px; height: 272.0px;" /></a></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="dane.html" class="btn btn-neutral float-right" title="2. Baza kontrahentów w systemie Retilia.Point" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="../index.html" class="btn btn-neutral" title="Instrukcja systemu Retilia.Point" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2016, Retilia Sp. z o.o..
+
+    </p>
+  </div> 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'1.0',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+      <script type="text/javascript" src="../_static/translations.js"></script>
+      <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

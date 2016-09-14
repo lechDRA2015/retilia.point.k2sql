@@ -1,0 +1,409 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>3. Dokumenty w systemie Retilia.Point &mdash; Instrukcja Systemu Retilia.Point</title>
+  
+
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+    <link rel="top" title="Instrukcja Systemu Retilia.Point" href="../index.html"/>
+        <link rel="next" title="4. Sprzedaż" href="sprz.html"/>
+        <link rel="prev" title="2. Baza kontrahentów w systemie Retilia.Point" href="dane.html"/> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Instrukcja Retilia.Point
+          
+
+          
+            
+            <img src="../_static/retilia_logo.jpg" class="logo" />
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+                <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="slow.html">1. Słownik towarów</a></li>
+<li class="toctree-l1"><a class="reference internal" href="dane.html">2. Baza kontrahentów w systemie Retilia.Point</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">3. Dokumenty w systemie Retilia.Point</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#lista-dokumentow">3.1 Lista dokumentów</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#opis-parametrow-w-oknie-dokument">3.2 Opis parametrów w oknie Dokument</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="sprz.html">4. Sprzedaż</a></li>
+<li class="toctree-l1"><a class="reference internal" href="kasa.html">5. Kasa Główna</a></li>
+<li class="toctree-l1"><a class="reference internal" href="dokumag.html">6. Dokumenty magazynowe</a></li>
+<li class="toctree-l1"><a class="reference internal" href="rap.html">7.Raporty w systemie Retilia.Point</a></li>
+<li class="toctree-l1"><a class="reference internal" href="graf.html">8.Graficzna prezentacja danych</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../index.html">Instrukcja Retilia.Point</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+ 
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../index.html">Docs</a> &raquo;</li>
+      
+    <li>3. Dokumenty w systemie Retilia.Point</li>
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../_sources/_main/doku.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="dokumenty-w-systemie-retilia-point">
+<h1>3. Dokumenty w systemie Retilia.Point<a class="headerlink" href="#dokumenty-w-systemie-retilia-point" title="Stały odnośnik do tego nagłówka">¶</a></h1>
+<p><strong>W tej części instrukcji w sposób ogólny opisany jest ręczny sposób tworzenia dokumentów w systemie Retilia.Point oraz sposób zarządzania Listą dokumentów.</strong></p>
+<p>Metoda tutaj opisana jest to metoda ręczna, gdyż każdy dokument wprowadzany jest pojedynczo przez operatora. Opis wprowadzania dokumentów został omówiony w grupach tematycznych związanych z danym dokumentem (patrz wykaz tematów).</p>
+<div class="section" id="lista-dokumentow">
+<h2>3.1 Lista dokumentów<a class="headerlink" href="#lista-dokumentow" title="Stały odnośnik do tego nagłówka">¶</a></h2>
+<table border="1" class="docutils">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>Aby wprowadzić którykolwiek z opisanych w instrukcji dokumentów lub odszukać taki dokument w celu jego obejrzenia bądź zmiany, należy wywołać procedurę <strong>Dokumenty</strong> z menu głównego. Wtedy wyświetli się okno <strong>Lista dokumentów</strong>.</td>
+<td><a class="reference external" href="_zdj/3.1ldok.png"><img alt="zdj1" class="align-middle" src="../_images/3.1ldok.png" style="width: 484.0px; height: 345.5px;" /></a></td>
+</tr>
+<tr class="row-even"><td>Aby zapisać do systemu nowy dokument należy kliknąć klawisz <strong>Dodaj</strong>, wtedy pokaże się okno <strong>Dokument</strong>, które służy do wprowadzenia danych.</td>
+<td><a class="reference external" href="_zdj/3.1ldokpz.png"><img alt="zdj2" class="align-middle" src="../_images/3.1ldokpz.png" style="width: 506.0px; height: 342.5px;" /></a></td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="docutils">
+<colgroup>
+<col width="100%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>Aby przywołać jakiś dokument, lub grupę dokumentów, które były już wcześniej wprowadzone do systemu, należy w polu <strong>Rodzaj</strong> wybrać odpowiedni znacznik dokumentu i ewentualnie podać zakres dat i/lub kontrahenta, a następnie użyć klawisza <strong>Filtruj</strong>. Jeśli w systemie są dokumenty spełniające podane kryteria, wtedy wyświetlą sie na ekranie.</td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="docutils">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>Dokument można przywołać także po kodzie paskowym.
+Wtedy trzeba ustawić kursor w polu <strong>Kod dok</strong>. i czytnikiem kodów kreskowych wczytać kod dokumentu.
+Klawisz <strong>Wyczyść pola</strong> służy do czyszczenia kryteriów filtrowania, czyli czyszczone są pola Rodzaj, Data od-do, Kontrahent i Kod dok. Następnie można podać nowe kryteria.</td>
+<td><a class="reference external" href="_zdj/3.1ldokkod.png"><img alt="zdj3" class="align-middle" src="../_images/3.1ldokkod.png" style="width: 484.0px; height: 345.5px;" /></a></td>
+</tr>
+<tr class="row-even"><td colspan="2">Klawisz <strong>Pokaż wszystkie</strong> – jego kliknięcie spowoduje, że program pobierze wszystkie dokumenty zapisane dotychczas w systemie i wyświetli je na ekranie. W sytuacji, gdy w bazie jest dużo dokumentów, wtedy oczekiwanie na dokumenty może trwać długo i nie zaleca się wykonywania takiej operacji.</td>
+</tr>
+</tbody>
+</table>
+<p>Po podaniu kryteriów wyszukania dokumentów w oknie <strong>Lista dokumentów</strong> wyświetlą się dokumenty spełniające kryteria.</p>
+<p>Wskazanie jakiegokolwiek dokumentu z listy, powoduje uaktywnienie się wszystkich lub niektórych klawiszy na dole listy i z jej prawej strony. Niektóre klawisze pozostają nieaktywne – jest to uzależnione od parametrów dostępu użytkownika do wybranych funkcji oraz parametrów definicji dokumentu.</p>
+<p>Zawsze dostępnymi klawiszami pozostają: <strong>Panel grupowania</strong>, <strong>Dostosuj widok</strong></p>
+<p>Pozostałe opcjonalne dostępne klawisze to:</p>
+<ul class="simple">
+<li><strong>Dodaj</strong></li>
+<li><strong>Pokaż</strong></li>
+<li><strong>Usuń</strong></li>
+<li><strong>Drukuj</strong></li>
+<li><strong>Popraw nagłówek</strong></li>
+<li><strong>Popraw pozycję</strong></li>
+<li><strong>Wystaw dokument powiązany</strong></li>
+<li><strong>Dokument korygujący</strong></li>
+<li><strong>Korekta rozmiaru</strong></li>
+<li><strong>Przypisz dokument kosztowy</strong></li>
+<li><strong>Kopiuj dokument na...</strong></li>
+<li><strong>Tax Free</strong></li>
+<li><strong>Reklamacje</strong></li>
+<li><strong>Nalicz punkty</strong></li>
+</ul>
+<p>Poniżej opisane jest działanie poszczególnych klawiszy.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="53%" />
+<col width="47%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><p class="first"><strong>Panel grupowania</strong> – tym klawiszem uruchamia się funkcję grupowania danych wg zadanych kryteriów i kolejności. Grupowaniu podlegają dane wyświetlone aktualnie w oknie <strong>Listy dokumentów</strong>. Szczegółowy opis działania tej funkcji jest opisany w części: “Panel grupowania”.</p>
+<p>Jeśli chcielibyśmy np. pogrupować dane wg kontrahenta, typu dokumentu i daty dokumentu,należałoby przeciągnąć myszką go góry najpierw nagłówek <strong>Typ dokumentu</strong>, następnie <strong>Data</strong>, a następnie <strong>Symbol</strong>.</p>
+<p>Dokumenty zostaną pogrupowane i ułożone wg typów dokumentu, w ramach typów wystąpią poszczególne daty, a każda data będzie pogrupowany wg symbolu dokumentu.</p>
+<p class="last">Po lewej stronie każdego wiersza jest znacznik ”<strong>+</strong>” służący do rozwijania grupy. Klikając na ten znak przy każdej kolejnej grupie docieramy aż do poszczególnych dokumentów. Aby zwinąć daną grupę wierszy klikamy na znak “-”, który występuje zamiennie z “+”.</p>
+</td>
+<td><a class="reference external" href="_zdj/3.1ldokgroup.png"><img alt="zdj5" class="align-middle" src="../_images/3.1ldokgroup.png" style="width: 484.0px; height: 345.5px;" /></a></td>
+</tr>
+<tr class="row-even"><td><p class="first"><strong>Dostosuj widok</strong> – ten klawisz służy do dodawania lub usuwania kolumn widocznych w tabeli z dokumentami, a także do ustawiania kolorów dla poszczególnych elementów okna. Szczegółowy opis działania tej funkcji opisany jest w oddzielnej sekcji pt: ”Dostosuj widok”.</p>
+<p>Po uruchomieniu klawisza pojawia się okno <strong>Dostosuj widok</strong>. Na pierwszej zakładce pt. Kolumny - z lewej strony okna jest wykaz kolumn, które można jeszcze dodać do tabeli, a z prawej wykaz kolumn, które są aktualnie wyświetlane. Używając klawiszy <strong>Dodaj i Usuń</strong>, można odpowiednio ustawić zawartość kolumn. Klawiszami strzałek w dolnej części okna można natomiast ustawić ich kolejność.</p>
+<p class="last">W zakładce kolory można ustawić kolory tła i tekstu dla wierszy parzystych i nieparzystych, dla nagłówków oraz tło dla tabeli z dokumentami.</p>
+</td>
+<td><a class="reference external" href="_zdj/3.1ldokdostw.png"><img alt="zdj6" class="align-middle" src="../_images/3.1ldokdostw.png" style="width: 241.5px; height: 180.0px;" /></a></td>
+</tr>
+<tr class="row-odd"><td><strong>Dodaj</strong> – wybierając ten klawisz wchodzimy w procedurę zapisu nowego dokumentu, gdzie wyświetla się okno <strong>Dokument</strong> z pustymi polami. Szczegółowy opis jest w drugiej części: Opis parametrów w oknie Dokument.</td>
+<td><a class="reference external" href="_zdj/3.1ldokzw.png"><img alt="zdj7" class="align-middle" src="../_images/3.1ldokzw.png" style="width: 506.0px; height: 332.5px;" /></a></td>
+</tr>
+<tr class="row-even"><td><strong>Pokaż</strong> – pod tym klawiszem wyświetla się wskazany aktualnie dokument wraz z jego pozycjami. W tym trybie można wprowadzić zmiany do dokumentu, zarówno w nagłówku jak i w poszczególnych pozycjach. Szczegółowy opis jest w drugiej części: Opis parametrów w oknie Dokument.</td>
+<td><a class="reference external" href="_zdj/3.1ldokpzpok.png"><img alt="zdj8" class="align-middle" src="../_images/3.1ldokpzpok.png" style="width: 506.0px; height: 342.5px;" /></a></td>
+</tr>
+<tr class="row-odd"><td><strong>Usuń</strong> – ten klawisz pozwala usunąć wskazany dokument z systemu. Przed uruchomieniem tej procedury program żąda potwierdzenia operacji. Klawisz jest aktywny tylko wtedy, gdy usunięcie dokumentu jest możliwe – zgodnie z ustawionymi parametrami.</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td><strong>Drukuj</strong> – tym klawiszem uruchamia się wydruk wskazanego dokumentu, o ile dokument ma przypisany parametr możliwości wydruku. Wtedy pokazuje się okienko <strong>Wydruki</strong> – należy wybrać odpowiednią postać wydruku i powtórnie klawisz <strong>Drukuj</strong> w aktywnym okienku.
+Ta opcja jest wykorzystywana wtedy, gdy z jakichś względów należy powtórzyć wydruk dokumentu, gdyż generalnie wydruk jest wywołany automatycznie po zapisie dokumentu.
+Następnie w pełnym oknie ukaże się postać dokumentu do wydruku. Klikając na ikonę drukarki na górnym pasku uzyskamy wydruk na drukarce.
+Wydruk można również zapisać w innych formatach i wyeksportować do pliku lub przeglądać w innym programie. W tym celu należy nacisnąć ikonę kopert na górnym pasku ekranu i wskazać odpowiedni format zapisu oraz przeznaczenie.</td>
+<td><a class="reference external" href="_zdj/3.1ldokdrukuj.png"><img alt="zdj10" class="align-middle" src="../_images/3.1ldokdrukuj.png" style="width: 157.0px; height: 158.5px;" /></a></td>
+</tr>
+<tr class="row-odd"><td><p class="first"><strong>Popraw nagłówek</strong> – klikając ten klawisz otwieramy okno Dokument z zawartością dokumentu. W oknie aktywne są pola związane z nagłówkiem dokumentu, które można zmienić. Są to następujące pola:</p>
+<ul class="simple">
+<li><strong>Data dokumentu</strong></li>
+<li><strong>Kontrahent</strong></li>
+<li><strong>Nr dokumentu</strong></li>
+<li><strong>Nr 2 dokumentu</strong></li>
+<li><strong>Opis</strong></li>
+<li><strong>Z magazynu</strong> (dla dokumentu MM)</li>
+</ul>
+<p class="last">Pozostałe klawisze są nieaktywne.
+Jeśli zmienimy zawartość tych pól i naciśniemy klawisz <strong>OK</strong>, wtedy nowe dane zostaną przypisane do tego dokumentu, a następnie wyświetla się okienko <strong>Wydruki</strong> i możliwość wydrukowania nowej postaci dokumentu.</p>
+</td>
+<td><a class="reference external" href="_zdj/3.1ldokpopr.png"><img alt="zdj11" class="align-middle" src="../_images/3.1ldokpopr.png" style="width: 484.0px; height: 338.0px;" /></a></td>
+</tr>
+<tr class="row-even"><td><strong>Popraw pozycję</strong> – klikając ten klawisz otwieramy, jak wyżej, okno <strong>Dokument</strong> z zawartością dokumentu. Jednak tutaj aktywne są klawisze umożliwiające zmianę pozycji dokumentu, jej dopisanie lub usunięcie. Są to następujące klawisze: <strong>Dodaj, Popraw, Usuń, Rabat, Opis</strong>. Szczegółowy opis tych klawiszy jest w drugiej części pt: ”Opis parametrów w oknie Dokument”.</td>
+<td><a class="reference external" href="_zdj/3.1ldokpzpopr1.png"><img alt="zdj12" class="align-middle" src="../_images/3.1ldokpzpopr1.png" style="width: 506.0px; height: 342.5px;" /></a></td>
+</tr>
+<tr class="row-odd"><td colspan="2"><p class="first"><strong>Wystaw dokument powiązany</strong> – tym klawiszem uruchamiana jest funkcja wystawiania dokumentu na podstawie tego, który wskazaliśmy. Jest to możliwe wtedy, gdy w systemie mamy zdefiniowany określony dokument, który powstaje z innego, a jednocześnie w definicji dokumentu, który wskazaliśmy jako bazowy jest określony parametr powiązania z drugim dokumentem.
+Typowym przykładem może być tutaj faktura dla klienta, która jest wystawiana na podstawie paragonu fiskalnego. Jeśli dokument nie ma parametru powiązania z innym, wtedy ten klawisz będzie nieaktywny.</p>
+<p><strong>Dokument korygujący</strong> – tym klawiszem uruchamia się funkcję wystawiania dokumentu korygującego, transakcje zakupu lub sprzedaży na wskazanym dokumencie i uruchamia się okno zapisu dokumentu. Jednak, aby ten klawisz był aktywny, musi być odpowiednio zdefiniowany rodzaj dokumentu i wskazany dokument, który koryguje transakcję.
+Może to być np. <strong>korekta do paragonu sprzedaży –&gt; zwrot towaru, korekta do faktury VAT –&gt; faktura korygująca VAT</strong>
+Jeśli do wybranego dokumentu był już wystawiany jakikolwiek dokument korygujący, wtedy program informuje o tym i daje możliwość wystawienia następnego dokumentu korygującego do ostatniego dla tej transakcji.
+Dokument korygujący może zmieniać zarówno ilość jak i cenę towaru transakcji pierwotnej i posiada dwie sekcje: <strong>BYŁO</strong> i <strong>MA BYĆ</strong> (szczegółowy opis w grupie tematycznej Sprzedaż).</p>
+<p><strong>Korekta rozmiaru</strong> – ta funkcja jest podobna do opisanej wyżej, jednak o ile korekta dokumentu zmienia jego wartość i ilość, o tyle korekta rozmiaru powoduje jedynie zamianę jednego towaru na drugi, a wartość transakcji pierwotnej pozostaje bez zmian.
+Operator ma do dyspozycji jedynie klawisz <strong>Zmień</strong>, który wywołuje listę towarów, aby wybrać inny rozmiar takiego samego towaru (szczegółowy opis w grupie tematycznej Sprzedaż).</p>
+<p class="last"><strong>Przypisz dokument kosztowy</strong> – pozwala powiązać transakcje z poniesionymi kosztami jej realizacji poprzez wskazanie dokumentu kosztowego.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="opis-parametrow-w-oknie-dokument">
+<h2>3.2 Opis parametrów w oknie Dokument<a class="headerlink" href="#opis-parametrow-w-oknie-dokument" title="Stały odnośnik do tego nagłówka">¶</a></h2>
+<p>Okno <strong>Dokument</strong> jest uruchamiane z <strong>Listy dokumentów</strong> lub bezpośrednio z menu głównego programu, o ile obsługa tego dokumentu ma swój odnośnik w menu.
+Jeśli zostało uruchomione bezpośrednio z menu, wtedy od razu przyjmuje odpowiednio nazwę dokumentu, np.: <strong>PZ</strong> lub <strong>PF – paragon fiskalny</strong>.
+Jest to okno standardowe służące do edycji wszystkich dokumentów.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>Aby można było dopisywać pozycje towarowe na dokumencie, muszą być najpierw uzupełnione niektóre pola w nagłówku dokumentu. Są to dane identyfikacyjne dokumentu:</td>
+<td><ul class="first last simple">
+<li><strong>Rodzaj</strong></li>
+<li><strong>Data</strong></li>
+<li><strong>Nr dokumentu</strong></li>
+<li><strong>Kontrahent</strong></li>
+<li><strong>Magazyn</strong></li>
+<li><strong>Z magazynu</strong> – dodatkowo dla dokumentu MM</li>
+</ul>
+</td>
+</tr>
+<tr class="row-even"><td><strong>Rodzaj dokumentu</strong> wybiera się z podręcznego spisu dokumentów.
+<strong>Data</strong> jest uzupełniana automatycznie datą bieżącą.
+<strong>Nr dokumentu</strong> wyświetla się automatycznie.
+<strong>Kontrahenta</strong> należy wybrać z Listy kontrahentów, klikając klawisz Lista.
+<strong>Magazyn</strong>, jeśli jest na stałe przypisany do dokumentu – wyświetla się automatycznie, w przeciwnym razie należy wybrać go z podręcznej listy magazynów.</td>
+<td><a class="reference external" href="_zdj/3.2ldokfv.png"><img alt="zdj18" class="align-middle" src="../_images/3.2ldokfv.png" style="width: 506.0px; height: 342.5px;" /></a></td>
+</tr>
+<tr class="row-odd"><td>Dopiero po uzupełnieniu tych danych aktywnymi stają się pozostałe klawisze umożliwiające edycje pozycji dokumentu.</td>
+<td>Są to następujące klawisze: <strong>Dodaj, Popraw, Usuń, Rabat, Płatności, Opis, OK, Anuluj</strong>.</td>
+</tr>
+<tr class="row-even"><td><strong>Dodaj</strong> – umożliwia dodanie do dokumentu kolejnej pozycji z Listy towarów. Jeśli klikniemy klawisz <strong>Dodaj</strong> lub klawisz <strong>Lista</strong> obok pola <strong>Kod</strong>, to wyświetli się Lista towarów, na której możemy odznaczyć w kolumnie <strong>Wyb</strong>. te towary, które chcemy umieścić na dokumencie, a następnie klawiszem <strong>Wybierz</strong> na Liście towarów zatwierdzamy nasz wybór.</td>
+<td><a class="reference external" href="_zdj/3.2ltow.png"><img alt="zdj20" class="align-middle" src="../_images/3.2ltow.png" style="width: 449.0px; height: 342.0px;" /></a></td>
+</tr>
+<tr class="row-odd"><td>Standardowo program przypisuje ilość 1 dla każdej wybranej pozycji. Można to zmienić następnie w oknie <strong>Parametry</strong> dodania, które wyświetla się po wybraniu towarów.
+Na niektórych dokumentach, np. Przychód zewnętrzny (PZ), należy też wprowadzić odpowiednią cenę, w której wyceniany jest towar na dokumencie.
+Tak samo można dopisać towar wpisując w polu <strong>Kod</strong> jego nr PLU lub kod kreskowy.</td>
+<td><a class="reference external" href="_zdj/3.2towar.png"><img alt="zdj21" class="align-middle" src="../_images/3.2towar.png" style="width: 243.5px; height: 194.5px;" /></a></td>
+</tr>
+<tr class="row-even"><td colspan="2"><p class="first"><strong>Popraw</strong> – służy do poprawienia pozycji towarowej: ilości, a także ewentualnie ceny lub wskaźnika VAT na niektórych dokumentach.</p>
+<p class="last"><strong>Usuń</strong> – pozwala usunąć wskazana pozycję z dokumentu. Operacje należy przedtem potwierdzić.</p>
+</td>
+</tr>
+<tr class="row-odd"><td><strong>Rabat</strong> – ten klawisz uruchamia okno, gdzie można wprowadzić rabat procentowy lub kwotowy dla bieżącej transakcji. Można przypisać rabat do towaru lub do całego dokumentu – odpowiednio Rabat lub Rabat do dokumentu. W zależności od parametrów przypisanych do dokumentu można udzielać rabatu procentowego - wtedy wylicza się automatycznie kwota rabatu, lub kwotowego – wtedy wylicza się procent rabatu. Jeśli w definicji dokumentu nie jest włączona funkcja umożliwiająca rabat, wtedy okno Rabat pozostaje nieaktywne.</td>
+<td><a class="reference external" href="_zdj/3.2rabat.png"><img alt="zdj24" class="align-middle" src="../_images/3.2rabat.png" style="width: 196.5px; height: 160.0px;" /></a></td>
+</tr>
+<tr class="row-even"><td><strong>Płatności</strong> – tym klawiszem uruchamiane jest okno <strong>Forma płatności</strong>, gdzie należy wskazać formę płatności dla danej transakcji. Może być więcej niż jedna forma płatności dla transakcji, wtedy trzeba przypisać odpowiednie wartości dla każdej wskazanej formy. Nie wszystkie dokumenty są związane z rozliczeniem z klientem, funkcja Płatności dotyczy zwykle dokumentów sprzedaży.</td>
+<td><a class="reference external" href="_zdj/3.2platform.png"><img alt="zdj25" class="align-middle" src="../_images/3.2platform.png" style="width: 366.0px; height: 217.5px;" /></a></td>
+</tr>
+<tr class="row-odd"><td><strong>Opis</strong> – tym klawiszem wywołuje się okno, w którym można wpisać komentarz do dokumentu. Taki tekst zostanie wydrukowany na dokumencie poniżej treści. Komentarz jest zapamiętywany w bazie danych i wyświetlając później taki dokument z Listy dokumentów można wyświetlić jego treść – klikając na klawisz <strong>Opis</strong>.</td>
+<td><a class="reference external" href="_zdj/3.2opis.png"><img alt="zdj26" class="align-middle" src="../_images/3.2opis.png" style="width: 449.5px; height: 302.0px;" /></a></td>
+</tr>
+<tr class="row-even"><td><strong>OK</strong> – zatwierdzenie wystawionego dokumentu. Jeśli wystawienie dokumentu nie wiąże się bezpośrednio z rozliczeniem gotówkowym z klientem, wtedy dokument jest drukowany od razu po naciśnięciu klawisza <strong>OK</strong>. Jeśli dokument wymaga rozliczenia się z klientem, wtedy pojawia się okienko do przyjęcia gotówki i wyliczenia reszty, w przypadku gdy wybrano gotówkę, jako formę zapłaty.</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>Niektóre dokumenty mogą mieć przypisanych kilka form wydruku oraz kopie i oryginał lub tylko oryginał. Np. Dokument PZ można wydrukować w cenach z dokumentu, czyli cenach zakupu, w dwóch egzemplarzach: oryginał i kopia. Można tez wydrukować w cenach zmarżowanych, tzn. po dodaniu marży handlowej do ceny zakupu, czyli w cenach sprzedaży, również jako oryginał i kopia lub tylko oryginał.</td>
+<td><a class="reference external" href="_zdj/3.2wydruki.png"><img alt="zdj28" class="align-middle" src="../_images/3.2wydruki.png" style="width: 157.0px; height: 158.5px;" /></a></td>
+</tr>
+<tr class="row-even"><td colspan="2"><strong>Anuluj</strong> – powoduje zamknięcie okna dokumentu i powrót do Listy dokumentów lub menu głównego, bez zapisywania dokumentu, ani zmian do niego wprowadzonych.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="sprz.html" class="btn btn-neutral float-right" title="4. Sprzedaż" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="dane.html" class="btn btn-neutral" title="2. Baza kontrahentów w systemie Retilia.Point" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2016, Retilia Sp. z o.o..
+
+    </p>
+  </div> 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'1.0',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+      <script type="text/javascript" src="../_static/translations.js"></script>
+      <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

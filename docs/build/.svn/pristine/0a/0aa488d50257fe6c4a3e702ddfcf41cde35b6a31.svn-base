@@ -1,0 +1,203 @@
+
+
+<!doctype html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pl">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>5. Kasa Główna &mdash; Instrukcja Systemu Retilia.Point</title>
+    
+    <link rel="stylesheet" href="../_static/bizstyle.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '1.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/translations.js"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript" src="../_static/bizstyle.js"></script>
+    <link rel="top" title="Instrukcja Systemu Retilia.Point" href="../index.html" />
+    <link rel="next" title="6. Dokumenty magazynowe" href="dokumag.html" />
+    <link rel="prev" title="4. Sprzedaż" href="sprz.html" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="_static/css3-mediaqueries.js"></script>
+    <![endif]-->
+  </head>
+  <body role="document">
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Nawigacja</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="Indeks ogólny"
+             accesskey="I">indeks</a></li>
+        <li class="right" >
+          <a href="dokumag.html" title="6. Dokumenty magazynowe"
+             accesskey="N">dalej</a> |</li>
+        <li class="right" >
+          <a href="sprz.html" title="4. Sprzedaż"
+             accesskey="P">wstecz</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">Instrukcja Retilia.Point</a> &raquo;</li> 
+      </ul>
+    </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+            <p class="logo"><a href="../index.html">
+              <img class="logo" src="../_static/retilia_logo.jpg" alt="Logo"/>
+            </a></p>
+  <h3><a href="../index.html">Spis treści</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">5. Kasa Główna</a><ul>
+<li><a class="reference internal" href="#obsluga-kasy-glownej">5.1  Obsługa kasy głównej</a></li>
+<li><a class="reference internal" href="#wystawianie-kwitow-kasowych">5.2 Wystawianie kwitów kasowych</a></li>
+<li><a class="reference internal" href="#rozliczanie-platnosci">5.3 Rozliczanie płatności</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Poprzedni temat</h4>
+  <p class="topless"><a href="sprz.html"
+                        title="poprzedni rozdział">4. Sprzedaż</a></p>
+  <h4>Następny temat</h4>
+  <p class="topless"><a href="dokumag.html"
+                        title="następny rozdział">6. Dokumenty magazynowe</a></p>
+  <div role="note" aria-label="source link">
+    <h3>Ta strona</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/_main/kasa.txt"
+            rel="nofollow">Pokaż źródło</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Szybkie wyszukiwanie</h3>
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Szukaj" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="kasa-glowna">
+<h1>5. Kasa Główna<a class="headerlink" href="#kasa-glowna" title="Stały odnośnik do tego nagłówka">¶</a></h1>
+<div class="section" id="obsluga-kasy-glownej">
+<h2>5.1  Obsługa kasy głównej<a class="headerlink" href="#obsluga-kasy-glownej" title="Stały odnośnik do tego nagłówka">¶</a></h2>
+<p><strong>W systemie funkcjonują dwa rodzaje kas, gdzie dokonuje się operacji pieniężnych i rozliczeń finansowych z bankiem, klientami i kontrahentami.</strong></p>
+<p>Jednym miejscem jest kasa sklepowa lub kilka takich kas, gdzie wystawia się paragony sprzedaży i przyjmuje płatności od klientów, a drugim miejscem jest kasa główna sklepu, gdzie wpływa utarg ze sprzedaży po raporcie fiskalnym, rozlicza się utarg w poszczególnych formach płatności, a także dokonuje innych operacji kasowych oraz rozliczeń finansowych.</p>
+<p>Mogą to być wpłaty do banku, zapłaty za faktury dla kontrahentów, wypłaty dla pracowników itd. W kasie głównej operacji dokonuje sie poprzez dokumenty kasowe.</p>
+<p>Dokumenty kasowe i ich obieg definiowane są w systemie w sekcji Konfiguracja systemu –&gt; Obieg dokumentów.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="53%" />
+<col width="47%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><p class="first">Typowymi dokumentami kasowymi są:</p>
+<ul class="last simple">
+<li><strong>KW/Kasa Przyjęła</strong></li>
+<li><strong>KP/Kasa Wydała</strong></li>
+<li><strong>KY/Kasa wydała</strong> (rozliczenie pogotowia kasowego)</li>
+<li><strong>KX/Kasa przyjęła</strong> (rozliczenie pogotowia kasowego)</li>
+<li><strong>UD/Utarg ze sprzedaży</strong></li>
+<li><strong>RK/Rozliczenie utargu/Karty płatnicze</strong></li>
+<li><strong>RB/Rozliczenie utargu/Bony gotówkowe</strong></li>
+<li><strong>WB/Wpłata do banku itp</strong>.</li>
+</ul>
+</td>
+<td><a class="reference external" href="_zdj/5.1ldokkas.png"><img alt="zdj1" class="align-middle" src="../_images/5.1ldokkas.png" style="width: 452.5px; height: 277.0px;" /></a></td>
+</tr>
+</tbody>
+</table>
+<p>Podobnie można powołać dokumenty rozliczające utarg ze sprzedaży ratalnej i innych form płatności. Dokumenty związane z <strong>rozliczeniem sprzedaży</strong> powstają automatycznie podczas drukowania raportu fiskalnego. Są to: utarg ze sprzedaży (UD) oraz wszystkie dokumenty rozliczające utarg z innymi formami płatności niż gotówka.
+Obsługa kasy głównej polega na wystawianiu kwitów i drukowaniu raportów kasowych. Można także <strong>rozliczać płatności</strong> z kontrahentami dla zdefiniowanych odpowiednio dokumentów, np. faktur, PZ itd. Dokumenty kasowe, ich wystawianie i przeglądanie odbywa się w funkcji uruchamianej w zakładce <strong>Kasa główna –&gt; Kasa główna – operacje</strong>. Raporty kasowe wykonuje się w tej samej zakładce funkcją <strong>Raporty</strong>.</p>
+</div>
+<div class="section" id="wystawianie-kwitow-kasowych">
+<h2>5.2 Wystawianie kwitów kasowych<a class="headerlink" href="#wystawianie-kwitow-kasowych" title="Stały odnośnik do tego nagłówka">¶</a></h2>
+<table border="1" class="docutils">
+<colgroup>
+<col width="53%" />
+<col width="47%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>Po uruchomieniu funkcji Kasa główna – operacje, wyświetli się Lista dokumentów kasowych. Podając odpowiednie daty lub kontrahenta można wyświetlić dokumenty z żądanego zakresu.</td>
+<td><a class="reference external" href="_zdj/5.2ldokkaslista.png"><img alt="zdj2" class="align-middle" src="../_images/5.2ldokkaslista.png" style="width: 452.5px; height: 277.0px;" /></a></td>
+</tr>
+<tr class="row-even"><td>Na liście znajdują się klawisze służące do edycji kwitów kasowych. Są to:</td>
+<td><p class="first">-<strong>Dodaj</strong> – dopisywanie kwitu</p>
+<p>-<strong>Popraw</strong> – zmiana istniejącego kwitu</p>
+<p class="last">-<strong>Drukuj</strong> – powtórny wydruk kwitu</p>
+</td>
+</tr>
+<tr class="row-odd"><td><ul class="first last simple">
+<li>Po wybraniu klawisza <strong>Dodaj</strong> wyświetli się okno <strong>Kasa</strong> – do zapisu dokumentu. Każdy dokument przypisany jest do jakiegoś raportu. Nowe dokumenty zapisują się do bieżącego raportu.</li>
+<li>Należy wybrać odpowiedni rodzaj kwitu i kontrahenta, a następnie wcisnąć klawisz <strong>Dodaj</strong>. Otworzy się okienko <strong>Pozycja</strong> do wprowadzenia kwoty operacji i opisu.</li>
+</ul>
+</td>
+<td><a class="reference external" href="_zdj/5.2pozycja.png"><img alt="zdj4" class="align-middle" src="../_images/5.2pozycja.png" style="width: 419.0px; height: 79.5px;" /></a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="rozliczanie-platnosci">
+<h2>5.3 Rozliczanie płatności<a class="headerlink" href="#rozliczanie-platnosci" title="Stały odnośnik do tego nagłówka">¶</a></h2>
+<p>W kasie można również regulować zobowiązania finansowe poprzez płatności gotówkowe. W oknie Kasa wybieramy odpowiedniego kontrahenta i rodzaj kwitu, klikamy klawisz <strong>Dodaj</strong>.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="53%" />
+<col width="47%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>W okienku <strong>Pozycja</strong> zaznaczamy opcję <strong>Wybrane dokumenty</strong> lub opcję <strong>Dokumenty</strong>. Wtedy okienko rozwinie się i wyświetli dokumenty oczekujące na zapłatę.</td>
+<td><a class="reference external" href="_zdj/5.3rozl.png"><img alt="zdj5" class="align-middle" src="../_images/5.3rozl.png" style="width: 419.0px; height: 273.5px;" /></a></td>
+</tr>
+</tbody>
+</table>
+<p>W opcji <strong>Wybrane dokumenty</strong> mamy możliwość wybrania dokumentu do zapłaty, a w opcji <strong>Dokumenty</strong> brane są pod uwagę wszystkie dokumenty danego kontrahenta do zapłaty. Jako wartość operacji wprowadzamy sumę zobowiązań ze wszystkich wyświetlonych dokumentów danego kontrahenta. Kwota zapłaty może być niższa od wartości wskazanego dokumentu, wtedy po wystawieniu kwitu wartość dokumentu do zapłaty zmniejszy się o wartości już zapłacone. Po wprowadzeniu kwoty należy zatwierdzić dokument klawiszem <strong>OK</strong>. Po zapisaniu kwitu kasowego do systemu opłacone dokumenty zostaną oznaczone jako zapłacone.</p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Nawigacja</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="Indeks ogólny"
+             >indeks</a></li>
+        <li class="right" >
+          <a href="dokumag.html" title="6. Dokumenty magazynowe"
+             >dalej</a> |</li>
+        <li class="right" >
+          <a href="sprz.html" title="4. Sprzedaż"
+             >wstecz</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">Instrukcja Retilia.Point</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &copy; Copyright 2016, Retilia Sp. z o.o..
+    </div>
+  </body>
+</html>

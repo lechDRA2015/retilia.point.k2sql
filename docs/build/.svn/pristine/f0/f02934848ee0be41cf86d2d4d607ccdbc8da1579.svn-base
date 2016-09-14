@@ -1,0 +1,590 @@
+
+
+<!doctype html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pl">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>4. Sprzedaż &mdash; Instrukcja Systemu Retilia.Point</title>
+    
+    <link rel="stylesheet" href="../_static/bizstyle.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '1.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/translations.js"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript" src="../_static/bizstyle.js"></script>
+    <link rel="top" title="Instrukcja Systemu Retilia.Point" href="../index.html" />
+    <link rel="next" title="5. Kasa Główna" href="kasa.html" />
+    <link rel="prev" title="3. Dokumenty w systemie Retilia.Point" href="doku.html" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="_static/css3-mediaqueries.js"></script>
+    <![endif]-->
+  </head>
+  <body role="document">
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Nawigacja</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="Indeks ogólny"
+             accesskey="I">indeks</a></li>
+        <li class="right" >
+          <a href="kasa.html" title="5. Kasa Główna"
+             accesskey="N">dalej</a> |</li>
+        <li class="right" >
+          <a href="doku.html" title="3. Dokumenty w systemie Retilia.Point"
+             accesskey="P">wstecz</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">Instrukcja Retilia.Point</a> &raquo;</li> 
+      </ul>
+    </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+            <p class="logo"><a href="../index.html">
+              <img class="logo" src="../_static/retilia_logo.jpg" alt="Logo"/>
+            </a></p>
+  <h3><a href="../index.html">Spis treści</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">4. Sprzedaż</a><ul>
+<li><a class="reference internal" href="#kasa-sklepowa">4.1 Kasa sklepowa</a></li>
+<li><a class="reference internal" href="#paragon-standard">4.2 Paragon standard</a></li>
+<li><a class="reference internal" href="#paragon-szybka-sprzedaz">4.3 Paragon – szybka sprzedaż</a></li>
+<li><a class="reference internal" href="#faktura-vat-do-paragonu">4.4  Faktura VAT do paragonu</a></li>
+<li><a class="reference internal" href="#korekta-do-faktury-vat">4.5 Korekta do faktury VAT</a></li>
+<li><a class="reference internal" href="#zwrot-od-klienta">4.6 Zwrot od klienta</a></li>
+<li><a class="reference internal" href="#korekta-rozmiaru">4.7 Korekta rozmiaru</a></li>
+<li><a class="reference internal" href="#zamowienie-od-klienta">4.8 Zamówienie od klienta</a></li>
+<li><a class="reference internal" href="#realizacja-zamowien-w-salonie">4.9 Realizacja zamówień w salonie</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Poprzedni temat</h4>
+  <p class="topless"><a href="doku.html"
+                        title="poprzedni rozdział">3. Dokumenty w systemie Retilia.Point</a></p>
+  <h4>Następny temat</h4>
+  <p class="topless"><a href="kasa.html"
+                        title="następny rozdział">5. Kasa Główna</a></p>
+  <div role="note" aria-label="source link">
+    <h3>Ta strona</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/_main/sprz.txt"
+            rel="nofollow">Pokaż źródło</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Szybkie wyszukiwanie</h3>
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Szukaj" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="sprzedaz">
+<h1>4. Sprzedaż<a class="headerlink" href="#sprzedaz" title="Stały odnośnik do tego nagłówka">¶</a></h1>
+<div class="section" id="kasa-sklepowa">
+<h2>4.1 Kasa sklepowa<a class="headerlink" href="#kasa-sklepowa" title="Stały odnośnik do tego nagłówka">¶</a></h2>
+<p><strong>W tej części instrukcji opisany jest sposób prowadzenia sprzedaży na systemie  Retilia.Point, od momenty rozpoczęcia dnia sprzedaży do zakończenia dnia wraz z  omówieniem wystawianych przez kasę sklepową dokumentów.</strong></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="53%" />
+<col width="47%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>Operacje – to zestaw czynności związanych z rozpoczęciem i zakończeniem zmiany na stanowisku sprzedaży. Te czynności wiążą się zwykle z wpłatą początkową i wypłatą gotówki na koniec zmiany. W trakcie pracy możliwy jest podgląd wartości utargu. Jest także rejestracja wpłat i wypłat nie związanych z bieżącymi transakcjami sprzedaży.</td>
+<td><a class="reference external" href="_zdj/4.1operacje.png"><img alt="zdj1" class="align-middle" src="../_images/4.1operacje.png" style="width: 504.5px; height: 342.5px;" /></a></td>
+</tr>
+<tr class="row-even"><td><p class="first">Są to następujące czynności:</p>
+<ul class="last simple">
+<li><strong>Otwórz szufladę (F4)</strong></li>
+<li><strong>Rozpoczęcie zmiany</strong></li>
+<li><strong>Wpłata</strong></li>
+<li><strong>Wypłata</strong></li>
+<li><strong>Zakończenie zmiany</strong></li>
+<li><strong>Podgląd szuflady (F5)</strong></li>
+</ul>
+</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td><strong>Otwórz szufladę</strong> - powoduje otwarcie szuflady z gotówką. Standardowo szuflada otwiera się automatycznie po zatwierdzeniu paragonu. Otwarcie szuflady wywołuje też klawisz F4 przy aktywnym oknie paragon.</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td><strong>Rozpoczęcie zmiany</strong> – wywołanie tej funkcji wiąże się z wpłatą początkową do kasy sklepowej. Ukazuje się wtedy okienko Rozpoczęcie zmiany. Można w oknie wpłaty podać wartość 0. Wartość należy zatwierdzić klawiszem Enter, a następnie OK. Program nie pozwoli na rozpoczęcie zmiany, jeśli poprzednia zmiana nie została zakończona. Zmianę można rozpocząć w dowolnym czasie jej trwania.</td>
+<td><a class="reference external" href="_zdj/4.1rozpoczecie.png"><img alt="zdj4" class="align-middle" src="../_images/4.1rozpoczecie.png" style="width: 187.0px; height: 52.5px;" /></a></td>
+</tr>
+<tr class="row-odd"><td><strong>Wpłata</strong> – po wybraniu funkcji pokazuje się okienko, gdzie należy wprowadzić wartość wpłaty, pochodzącej z innego źródła niż sprzedaż bieżąca. Jeśli podłączona jest drukarka fiskalna w systemie, wtedy każda wpłata i wypłata jest drukowana na paragonie niefiskalnym.</td>
+<td><a class="reference external" href="_zdj/4.1wplata.png"><img alt="zdj5" class="align-middle" src="../_images/4.1wplata.png" style="width: 187.0px; height: 130.0px;" /></a></td>
+</tr>
+<tr class="row-even"><td><strong>Wypłata</strong> – po wybraniu funkcji pokazuje się okienko, gdzie należy wprowadzić wartość wypłaty. Np. Jeśli klient zwraca towar, to należy wprowadzić wypłatę,               o ile jest to gotówka.</td>
+<td><a class="reference external" href="_zdj/4.1wyplata.png"><img alt="zdj6" class="align-middle" src="../_images/4.1wyplata.png" style="width: 187.0px; height: 130.0px;" /></a></td>
+</tr>
+<tr class="row-odd"><td><strong>Zakończenie zmiany</strong> – wywołanie tej funkcji jest związane z wypłatą utargu z kasy sklepowej. Ukazuje się wtedy okienko <strong>Zakończenie zmiany</strong>, gdzie należy wprowadzić wartość gotówki z szuflady. Następną czynnością powinno być wykonanie raportu fiskalnego i zmianowego.</td>
+<td><a class="reference external" href="_zdj/4.1zakonczenie.png"><img alt="zdj7" class="align-middle" src="../_images/4.1zakonczenie.png" style="width: 187.0px; height: 88.5px;" /></a></td>
+</tr>
+<tr class="row-even"><td><strong>Podgląd szuflady (F5)</strong> – wywołuje okno Podgląd kasy – rok-mc-dzień. W oknie ukazują się informacje o wartości sprzedaży w dniu bieżącym, ogółem i w poszczególnych formach płatności, wpłaty i wypłaty oraz saldo bieżące gotówkowe. Okno można uruchomić bezpośrednio klawiszem funkcyjnym F5 przy aktywnym oknie paragonu.</td>
+<td><a class="reference external" href="_zdj/4.1podglad.png"><img alt="zdj8" class="align-middle" src="../_images/4.1podglad.png" style="width: 299.0px; height: 258.5px;" /></a></td>
+</tr>
+<tr class="row-odd"><td><p class="first"><strong>Raporty</strong> – ta funkcja pozwala wykonać raporty: fiskalny i zmianowy. Obydwa wydruki uruchamia się jednym klawiszem <strong>Raport fiskalny</strong>. Raport fiskalny drukowany jest na drukarce fiskalnej, o ile jest podłączona do systemu, a raport zmianowy na bieżącej drukarce. Jeśli nie ma zainstalowanej drukarki fiskalnej, wtedy wykonuje się tylko raport zmianowy. Raport zmianowy jest zapisywany w bazie danych i można wydrukować jego duplikat. Aby wykonać te wydruki niezbędne jest przedtem zamknięcie zmiany. Jeśli zmiana jest zamknięta, wtedy program żąda potwierdzenia operacji. Aby raport fiskalny został wydrukowany, należy jeszcze potwierdzić tę operacje na drukarce fiskalnej przyciskiem <strong>Tak</strong>.</p>
+<p class="last"><strong>Raport zmianowy</strong> nazywa się Raport Z nr XX z dnia: 99-99-99 i obejmuje operacje pieniężne przeprowadzone w systemie w trakcie zmiany. W ciągu jednego dnia może być kilka raportów zmianowych numerowanych kolejno wg zmian.</p>
+</td>
+<td><a class="reference external" href="_zdj/4.1raport.png"><img alt="zdj9" class="align-middle" src="../_images/4.1raport.png" style="width: 506.0px; height: 342.5px;" /></a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="paragon-standard">
+<h2>4.2 Paragon standard<a class="headerlink" href="#paragon-standard" title="Stały odnośnik do tego nagłówka">¶</a></h2>
+<p>Poniżej opis działania poszczególnych klawiszy:</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="53%" />
+<col width="47%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>Funkcja <strong>Paragon</strong> przeznaczona jest do rejestrowania i dokumentowania sprzedaży sklepowej.
+Poprzez odpowiednie parametry transakcja może być także rejestrowana w module drukarki fiskalnej, z której drukowany będzie paragon.</td>
+<td><a class="reference external" href="_zdj/4.2pf.png"><img alt="zdj10" class="align-middle" src="../_images/4.2pf.png" style="width: 506.0px; height: 342.5px;" /></a></td>
+</tr>
+<tr class="row-even"><td>Po wybraniu tej funkcji pokazuje się okno: PF- Paragon fiskalny.</td>
+<td><a class="reference external" href="_zdj/4.2pf.png"><img alt="zdj11" class="align-middle" src="../_images/4.2pf.png" style="width: 506.0px; height: 342.5px;" /></a></td>
+</tr>
+<tr class="row-odd"><td><p class="first">Dokument powinien mieć przypisany na stałe Rodzaj dokumentu <strong>G</strong> oraz symbol magazynu z którego odbywa się sprzedaż. Może też mieć na stałe przypisanego kontrahenta, np. Sprzedaż paragonowa. Towar na paragon można wprowadzić na kilka sposobów:</p>
+<ul class="last simple">
+<li>czytnikiem kodów kreskowych, wtedy kursor musi być ustawiony w polu <strong>Kod</strong></li>
+<li>wpisując w polu <strong>Kod</strong> symbol PLU towaru lub nazwę towaru</li>
+<li>wybierając towary z listy towarów</li>
+</ul>
+</td>
+<td><a class="reference external" href="_zdj/4.2ltow.png"><img alt="zdj12" class="align-middle" src="../_images/4.2ltow.png" style="width: 449.0px; height: 357.5px;" /></a></td>
+</tr>
+<tr class="row-even"><td>Tabela z wybranymi do sprzedaży towarami znajduje sie w środkowej części okna. Domyślną ilością sprzedaży, w chwili wprowadzenia towaru na paragon, jest 1. Jeśli chcemy sprzedać inną ilość niż 1, to przed zapisem towaru można wstawić żądaną ilość w polu <strong>Ilość</strong> w prawym dolnym rogu okna lub zmienić ilość pod klawiszem <strong>Popraw</strong> na wskazanym towarze.</td>
+<td><a class="reference external" href="_zdj/4.2towar.png"><img alt="zdj13" class="align-middle" src="../_images/4.2towar.png" style="width: 243.5px; height: 194.5px;" /></a></td>
+</tr>
+<tr class="row-odd"><td>Ponad tabelą z towarami na paragon znajdują się klawisze: <strong>Dostosuj, Panel grupowania, Zmiana ceny, Szybka sprzedaż</strong>.
+Na dole okna paragonu znajdują się następujące klawisze: <strong>Dodaj, Popraw, Usuń, Rabat, Płatności, Opis</strong> oraz <strong>OK i Anuluj</strong>.</td>
+<td><a class="reference external" href="_zdj/4.2pf2.png"><img alt="zdj14" class="align-middle" src="../_images/4.2pf2.png" style="width: 506.0px; height: 342.5px;" /></a></td>
+</tr>
+<tr class="row-even"><td><strong>Dostosuj</strong> – wywołuje okno <strong>Dostosuj widok</strong> z trzema zakładkami. Na pierwszej zakładce można wybrać lub usunąć kolumny tabeli z towarami na paragonie. Po lewej stronie jest okienko z kolumnami, które można jeszcze dodać, a po prawej z kolumnami które są już w tabeli. Do tego celu służą klawisze <strong>Dodaj</strong> i <strong>Usuń</strong>. Kolejność kolumn w tabeli można aranżować przy pomocy dwóch klawiszy ze strzałkami poniżej prawego okienka.
+Druga zakładka pozwala wybrać kolory dla poszczególnych partii okna zapisu paragonu.
+Trzecia zakładka pozwala ustawić kolory dla okna zapisu paragonu w trybie Szybka sprzedaż opisana poniżej.</td>
+<td><a class="reference external" href="_zdj/4.2pfdost.png"><img alt="zdj15" class="align-middle" src="../_images/4.2pfdost.png" style="width: 506.0px; height: 342.5px;" /></a></td>
+</tr>
+<tr class="row-odd"><td><strong>Panel grupowania</strong> – pozwala grupować towary z paragonu według wybranych kryteriów-kolumn. Wystarczy przeciągnąć myszką nagłówek wybranej kolumny lub kilku kolumn, a dane zostaną ułożone w odpowiedniej kolejności, rosnąco lub malejąco, o czym decyduje kierunek strzałki w nagłówku kolumny. Pogrupowane dane można rozwinąć klikając na znak + po lewej stronie zgrupowanej pozycji. Więcej informacji na temat panelu grupowania znajduje się w : Panel Grupowania.</td>
+<td><a class="reference external" href="_zdj/4.2pfgroup.png"><img alt="zdj16" class="align-middle" src="../_images/4.2pfgroup.png" style="width: 506.0px; height: 342.5px;" /></a></td>
+</tr>
+<tr class="row-even"><td><strong>Zmiana ceny</strong> – pozwala zmienić cenę brutto sprzedaży wskazanego towaru na paragonie.</td>
+<td><a class="reference external" href="_zdj/4.2zmianaceny.png"><img alt="zdj17" class="align-middle" src="../_images/4.2zmianaceny.png" style="width: 226.5px; height: 159.5px;" /></a></td>
+</tr>
+<tr class="row-odd"><td><strong>Dodaj</strong> – po naciśnięciu klawisza wyświetla się lista towarów do sprzedaży.</td>
+<td><a class="reference external" href="_zdj/4.2ltow.png"><img alt="zdj18" class="align-middle" src="../_images/4.2ltow.png" style="width: 449.0px; height: 357.5px;" /></a></td>
+</tr>
+<tr class="row-even"><td><strong>Popraw</strong> – służy do poprawienia ilości, ceny sprzedaży lub wskaźnika VAT wskazanego towaru na paragonie. Zmiany wprowadzone tutaj dla wskazanego towaru dotyczą tylko tej bieżącej transakcji.</td>
+<td><a class="reference external" href="_zdj/4.2towar.png"><img alt="zdj19" class="align-middle" src="../_images/4.2towar.png" style="width: 243.5px; height: 194.5px;" /></a></td>
+</tr>
+<tr class="row-odd"><td><strong>Usuń</strong> – pozwala usunąć wskazana pozycję z paragonu. Operacje należy przedtem potwierdzić.</td>
+<td><a class="reference external" href="_zdj/4.2potwierdzenie.png"><img alt="zdj20" class="align-middle" src="../_images/4.2potwierdzenie.png" style="width: 131.5px; height: 80.0px;" /></a></td>
+</tr>
+<tr class="row-even"><td><strong>Rabat</strong> – ten klawisz uruchamia okno, gdzie można wprowadzić rabat procentowy lub kwotowy dla bieżącej transakcji. Można przypisać rabat do towaru lub do całego dokumentu – odpowiednio Rabat lub Rabat do dokumentu. W zależności od parametrów przypisanych do dokumentu można udzielać rabatu procentowego - wtedy wylicza się automatycznie kwota rabatu, lub kwotowego – wtedy wylicza się procent rabatu.</td>
+<td><a class="reference external" href="_zdj/4.2rabat.png"><img alt="zdj21" class="align-middle" src="../_images/4.2rabat.png" style="width: 196.5px; height: 160.0px;" /></a></td>
+</tr>
+<tr class="row-odd"><td><strong>Płatności</strong> –  tym klawiszem uruchamiane jest okno <strong>Forma płatności</strong>, gdzie należy wskazać formę płatności dla danej transakcji. Może być więcej niż jedna forma płatności dla transakcji, wtedy trzeba przypisać odpowiednie wartości dla każdej wskazanej formy.</td>
+<td><a class="reference external" href="_zdj/4.2platform.png"><img alt="zdj22" class="align-middle" src="../_images/4.2platform.png" style="width: 366.0px; height: 217.5px;" /></a></td>
+</tr>
+<tr class="row-even"><td><strong>OK</strong> – zatwierdzenie wystawionego dokumentu. Jeśli wcześniej podano formę płatności dla dokumentu, wtedy pojawia się okienko do przyjęcia gotówki i wyliczenia reszty, w przypadku gdy wybrano gotówkę, jako formę zapłaty. Jeśli wybrano inną formę, wtedy dokument jest drukowany od razu po naciśnięciu klawisza <strong>OK</strong>. Jeśli przed naciśnięciem <strong>OK</strong> nie wybrano formy płatności, wtedy najpierw pokazywane jest okno Forma płatności.</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td><strong>Anuluj</strong> – powoduje zamknięcie okna paragonów i powrót do menu głównego.</td>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="paragon-szybka-sprzedaz">
+<h2>4.3 Paragon – szybka sprzedaż<a class="headerlink" href="#paragon-szybka-sprzedaz" title="Stały odnośnik do tego nagłówka">¶</a></h2>
+<table border="1" class="docutils">
+<colgroup>
+<col width="53%" />
+<col width="47%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>Ta funkcja jest uproszczoną wersją wystawiania paragonów sprzedaży.</td>
+<td><a class="reference external" href="_zdj/4.3pf.png"><img alt="zdj25" class="align-middle" src="../_images/4.3pf.png" style="width: 506.0px; height: 342.5px;" /></a></td>
+</tr>
+<tr class="row-even"><td>Towar wybiera się tutaj albo czytnikiem kodów kreskowych, albo przez wpisanie kodu PLU towaru. W oknie wyświetlona jest klawiatura numeryczna, którą można się posługiwać zamiennie z klawiaturą standardową. Dodatkowo jest znak <strong>&#8216;*&#8217;</strong> i <strong>backspace</strong> do kasowania znaku w polu kodu towaru. Ilość sprzedaży domyślnie jest zawsze 1, ale można ją zmienić wpisując, w polu przeznaczonym na kod towaru,**&#8217;*&#8217;** i liczbę określającą ilość, np.:<strong>&#8216;*3&#8217;</strong> oznacza, że następny towar jest sprzedawany w ilości 3. Formy płatności ograniczone są do gotówki i karty płatniczej, które wybiera sie odpowiednim klawiszem w oknie.</td>
+<td><a class="reference external" href="_zdj/4.3pf1.png"><img alt="zdj26" class="align-middle" src="../_images/4.3pf1.png" style="width: 506.0px; height: 342.5px;" /></a></td>
+</tr>
+<tr class="row-odd"><td>Zatwierdzenie dokumentu jest pod klawiszem <strong>OK</strong>. Jeśli nie wybrano przedtem formy płatności, wtedy ukazuje się okno <strong>Forma płatności</strong>, a przy płatności gotówką również okienko do wyliczenia reszty. Wycofanie się z dokumentu jest pod klawiszem <strong>Anuluj</strong>.
+Zawsze można wrócić do wersji standardowej, korzystając z klawisza Standardowy widok, a dane zapisane w oknie <strong>Szybka sprzedaż</strong> znajdą się również w tym oknie.</td>
+<td><a class="reference external" href="_zdj/4.3wplata.png"><img alt="zdj27" class="align-middle" src="../_images/4.3wplata.png" style="width: 148.0px; height: 122.5px;" /></a></td>
+</tr>
+<tr class="row-even"><td>Pod klawiszem <strong>Dostosuj widok</strong> w oknie standardowym paragonu można ustawić kolorystykę okna <strong>Szybka sprzedaż</strong>. Te parametry znajdują się w zakładce pt: <em>Kolory – panel szybka sprzedaż</em>.</td>
+<td><a class="reference external" href="_zdj/4.3dostkol.png"><img alt="zdj28" class="align-middle" src="../_images/4.3dostkol.png" style="width: 241.5px; height: 180.0px;" /></a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="faktura-vat-do-paragonu">
+<h2>4.4  Faktura VAT do paragonu<a class="headerlink" href="#faktura-vat-do-paragonu" title="Stały odnośnik do tego nagłówka">¶</a></h2>
+<table border="1" class="docutils">
+<colgroup>
+<col width="53%" />
+<col width="47%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>Aby wystawić fakturę VAT do paragonu należy wywołać <strong>Listę dokumentów</strong> np. Z menu głównego <strong>Dokumenty korygujące i faktury</strong>. Następnie wybrać rodzaj dokumentu –&gt; <strong>G – paragon fiskalny</strong>, podać inne dane do filtrowania, np. zakres dat w którym poszukiwany dokument został zapisany i klawiszem <strong>Filtruj</strong> pobrać dokumenty.</td>
+<td><a class="reference external" href="_zdj/4.4ldokfil.png"><img alt="zdj29" class="align-middle" src="../_images/4.4ldokfil.png" style="width: 484.0px; height: 343.5px;" /></a></td>
+</tr>
+<tr class="row-even"><td>Jeśli do paragonu wystawiony był już dokument korygujący zwrotu towaru, wtedy fakturę należy wystawić do dokumentu zwrotu, czyli wybieranym rodzajem dokumentu będzie <strong>Z – zwrot towaru</strong>. Po wyszukaniu interesującego nas dokumentu należy klawiszem Wystaw dokument powiązany <em>FV – faktura VAT</em> wywołać okno zapisu faktury VAT.</td>
+<td><a class="reference external" href="_zdj/4.4fv.png"><img alt="zdj30" class="align-middle" src="../_images/4.4fv.png" style="width: 506.0px; height: 342.5px;" /></a></td>
+</tr>
+<tr class="row-odd"><td><p class="first">W oknie zapisu faktury VAT wyświetlą się wszystkie pozycje wydrukowane na  paragonie. Należy przy tym wykonać następujące czynności:</p>
+<ul class="last simple">
+<li>w polu Kontrahent wprowadzić właściwego klienta, wybierając go z listy kontrahentów lub dodając nowego.</li>
+<li>opcjonalnie można dodać opis dowolnej treści w oknie uruchamianym klawiszem Opis, który zostanie wydrukowany na fakturze poniżej treści zasadniczej.</li>
+<li>zatwierdzić dokument klawiszem OK, wtedy dokument jest zapisany w bazie danych.</li>
+</ul>
+</td>
+<td><a class="reference external" href="_zdj/4.4kontr.png"><img alt="zdj31" class="align-middle" src="../_images/4.4kontr.png" style="width: 373.0px; height: 310.0px;" /></a></td>
+</tr>
+<tr class="row-even"><td>Po zatwierdzeniu dokumentu wyświetli się standardowe okienko Wydruki. Po kliknięciu klawisza Drukuj na ekranie wyświetli się postać tekstowa dokumentu do wydruku.</td>
+<td><a class="reference external" href="_zdj/4.4wydruki.png"><img alt="zdj32" class="align-middle" src="../_images/4.4wydruki.png" style="width: 157.0px; height: 158.5px;" /></a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="korekta-do-faktury-vat">
+<h2>4.5 Korekta do faktury VAT<a class="headerlink" href="#korekta-do-faktury-vat" title="Stały odnośnik do tego nagłówka">¶</a></h2>
+<table border="1" class="docutils">
+<colgroup>
+<col width="53%" />
+<col width="47%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>Aby wystawić korektę do faktury VAT należy wywołać <strong>Listę dokumentów</strong>, np. Z menu głównego <strong>Dokumenty korygujące i faktury</strong>. Następnie wybrać rodzaj dokumentu –&gt; <strong>F – faktura VAT</strong>, podać szczegółowe dane do filtrowania, np. zakres dat w którym dokument został wystawiony i klawiszem <strong>Filtruj</strong> pobrać dokumenty.</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>Po wyszukaniu interesującego nas dokumentu należy klawiszem <strong>Dokument korygujący</strong> wywołać okno zapisu korekty do faktury VAT.</td>
+<td><a class="reference external" href="_zdj/4.5ldokkoryg.png"><img alt="zdj34" class="align-middle" src="../_images/4.5ldokkoryg.png" style="width: 484.0px; height: 343.5px;" /></a></td>
+</tr>
+<tr class="row-odd"><td>W oknie zapisu korekty wyświetlą się wszystkie pozycje z faktury. Można zmienić kontrahenta na fakturze, można usunąć towar, zmienić jego cenę lub zmniejszyć ilość sprzedaną.</td>
+<td><a class="reference external" href="_zdj/4.5fvkoryg.png"><img alt="zdj35" class="align-middle" src="../_images/4.5fvkoryg.png" style="width: 506.0px; height: 342.5px;" /></a></td>
+</tr>
+<tr class="row-even"><td colspan="2">Dostępne są w oknie klawisze:</td>
+</tr>
+<tr class="row-odd"><td><strong>Lista kontrahentów</strong> – tym klawiszem można wyświetlić Listę kontrahentów lub dopisać nowego i wybrać na dokument.</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td><strong>Popraw</strong> - wywołanie tej funkcji daje możliwość zmiany ilość na mniejszą, lub zmiany ceny sprzedaży.</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td><strong>Usuń</strong> – pozwala usunąć dany towar z dokumentu, wyświetlając przedtem okno, w którym należy potwierdzić decyzję o usunięciu.</td>
+<td><a class="reference external" href="_zdj/4.5potwierdzenie.png"><img alt="zdj38" class="align-middle" src="../_images/4.5potwierdzenie.png" style="width: 131.5px; height: 80.0px;" /></a></td>
+</tr>
+<tr class="row-even"><td><strong>Opis</strong> – pozwala wprowadzić komentarz do dokumentu, który zostanie wydrukowany w dolnej części dokumentu.</td>
+<td><a class="reference external" href="_zdj/4.5opis.png"><img alt="zdj39" class="align-middle" src="../_images/4.5opis.png" style="width: 449.5px; height: 302.0px;" /></a></td>
+</tr>
+<tr class="row-odd"><td><strong>Płatności</strong> – tym klawiszem wyświetla się okno wyboru formy płatności dla dokumentu. Należy wybrać odpowiednią formę płatności. Klawisze <strong>OK</strong> i <strong>Anuluj</strong> służą do zatwierdzenia dokumentu lub wycofania się z korekty.</td>
+<td><a class="reference external" href="_zdj/4.5formyplat.png"><img alt="zdj40" class="align-middle" src="../_images/4.5formyplat.png" style="width: 366.0px; height: 217.5px;" /></a></td>
+</tr>
+<tr class="row-even"><td>Po zatwierdzeniu dokumentu wyświetli się standardowe okienko <strong>Wydruki</strong>.</td>
+<td><a class="reference external" href="_zdj/4.5wydruki.png"><img alt="zdj41" class="align-middle" src="../_images/4.5wydruki.png" style="width: 157.0px; height: 158.5px;" /></a></td>
+</tr>
+<tr class="row-odd"><td>Po kliknięciu klawisza <strong>Drukuj</strong> na ekranie wyświetli się postać tekstowa dokumentu do wydruku. Aby wydrukować dokument należy nacisnąć ikonę drukarki na pasku u góry ekranu.</td>
+<td><a class="reference external" href="_zdj/4.5fk.png"><img alt="zdj42" class="align-middle" src="../_images/4.5fk.png" style="width: 400.5px; height: 448.0px;" /></a></td>
+</tr>
+<tr class="row-even"><td>Aby wyeksportować dokument do innego pliku należy nacisnąć ikonę koperty i wybrać odpowiedni format pliku.</td>
+<td><a class="reference external" href="_zdj/4.5export.png"><img alt="zdj43" class="align-middle" src="../_images/4.5export.png" style="width: 205.0px; height: 95.0px;" /></a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="zwrot-od-klienta">
+<h2>4.6 Zwrot od klienta<a class="headerlink" href="#zwrot-od-klienta" title="Stały odnośnik do tego nagłówka">¶</a></h2>
+<table border="1" class="docutils">
+<colgroup>
+<col width="53%" />
+<col width="47%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>Aby wystawić dokument zwrotu towaru od klienta należy wywołać <strong>Listę dokumentów</strong>, np. z menu głównego <strong>Dokumenty korygujące i faktury</strong>. Następnie wybrać rodzaj dokumentu –&gt; <strong>G – paragon fiskalny</strong>, podać inne dane do filtrowania, np. zakres dat w którym poszukiwany dokument został zapisany i klawiszem <strong>Filtruj</strong> pobrać dokumenty.
+Następnie należy wskazać paragon do którego jest zwrot towaru i klawiszem <strong>Dokument korygujący</strong> wywołać okno zapisu dokumentu ZW.</td>
+<td><a class="reference external" href="_zdj/4.6ldokkoryg.png"><img alt="zdj44" class="align-middle" src="../_images/4.6ldokkoryg.png" style="width: 484.0px; height: 343.5px;" /></a></td>
+</tr>
+<tr class="row-even"><td>W oknie zapisu dokumentu <strong>ZW – zwrot towaru</strong> wyświetlone są pozycje z paragonu. Nad lewym górnym rogiem tabelki z towarami są dwa klawisze <strong>Ma być</strong> i <strong>Było</strong>. Pod klawiszem <strong>Było</strong> jest wersja oryginalna dokumentu, który ma być korygowany. Tej wersji nie można zmienić, a klawisze służące modyfikacji są nieaktywne. Pod klawiszem <strong>Ma być</strong> jest wersja aktualnie tworzonego dokumentu i tutaj należy wprowadzić korektę. Nowo utworzony dokument ma odzwierciedlać stan transakcji sprzedaży po korekcie. Modyfikacji transakcji może podlegać ilość lub cena towaru, podatek VAT, a także kontrahent. Aktywnymi klawiszami są: <strong>Zmiana ceny, Popraw, Usuń, Płatności, Opis, OK, Anuluj</strong>.</td>
+<td><a class="reference external" href="_zdj/4.6ldokzw.png"><img alt="zdj45" class="align-middle" src="../_images/4.6ldokzw.png" style="width: 506.0px; height: 342.5px;" /></a></td>
+</tr>
+<tr class="row-odd"><td><strong>Zmiana ceny</strong> – ukazuje się okno, w którym można zmienić cenę brutto sprzedaży, a wartość towar będzie naliczona od nowa.</td>
+<td><a class="reference external" href="_zdj/4.6zmianaceny.png"><img alt="zdj46" class="align-middle" src="../_images/4.6zmianaceny.png" style="width: 226.5px; height: 159.5px;" /></a></td>
+</tr>
+<tr class="row-even"><td><strong>Popraw</strong> – pod tym klawiszem można zmienić ilość towaru na mniejszą, jednak jeśli towar był sprzedany w ilości 1 i klient go zwraca, wtedy należy pozycje usunąć. Można także zmienić tutaj cenę i wartość sprzedanego towaru oraz wysokość podatku VAT.</td>
+<td><a class="reference external" href="_zdj/4.6towar.png"><img alt="zdj47" class="align-middle" src="../_images/4.6towar.png" style="width: 243.5px; height: 194.5px;" /></a></td>
+</tr>
+<tr class="row-odd"><td><strong>Usuń</strong> – pozwala usunąć pozycję z dokumentu, np. w przypadku, gdy klient zwraca towar. Po wybraniu klawisza pojawia się okienko z żądaniem potwierdzenia operacji usunięcia.</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td><strong>Opis</strong> – pod tym klawiszem można wprowadzić opis do dokumentu, który zostanie wydrukowany na dokumencie.</td>
+<td><a class="reference external" href="_zdj/4.6opis.png"><img alt="zdj49" class="align-middle" src="../_images/4.6opis.png" style="width: 449.5px; height: 302.0px;" /></a></td>
+</tr>
+<tr class="row-odd"><td><strong>OK</strong> – tym klawiszem zatwierdza się zmiany i zawartość nowego dokumentu. Jeśli formą rozliczenia jest gotówka, to ukazuje się okienko do wyliczenia reszty. Po tym następuje wydruk dokumentu zwrotu.</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td><strong>Anuluj</strong> – tym klawiszem można wycofać się z operacji korygowania transakcji sprzedaży.</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>Jeśli do paragonu był juz wcześniej wystawiany dokument korygujący, wtedy program poinformuje, że korygować można tylko ostatni dokument wystawiony dla tej transakcji. Jeśli jest potrzeba dalszego korygowania transakcji, a ostatnim dla niej dokumentem był dokument zwrotu, to zmieniany będzie ten ostatni. Po zaakceptowaniu klawiszem <strong>OK</strong>, wyświetli się okno zapisu nowego dokumentu zwrotu.</td>
+<td><a class="reference external" href="_zdj/4.6wystawdok.png"><img alt="zdj52" class="align-middle" src="../_images/4.6wystawdok.png" style="width: 203.0px; height: 182.0px;" /></a></td>
+</tr>
+<tr class="row-even"><td>Po zaakceptowaniu dokumentu wyświetli się standardowe okienko <strong>Wydruki</strong>. Po kliknięciu klawisza <strong>Drukuj</strong> na ekranie wyświetli się postać tekstowa dokumentu do wydruku.</td>
+<td><a class="reference external" href="_zdj/4.6wydrukzw.png"><img alt="zdj53" class="align-middle" src="../_images/4.6wydrukzw.png" style="width: 404.0px; height: 432.5px;" /></a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="korekta-rozmiaru">
+<h2>4.7 Korekta rozmiaru<a class="headerlink" href="#korekta-rozmiaru" title="Stały odnośnik do tego nagłówka">¶</a></h2>
+<p><strong>Korekta rozmiaru jest operacją polegającą na zamianie towaru o tej samej nazwie i parametrze na inny kolor lub rozmiar.</strong></p>
+<p>Aby dokonać takiej operacji należy wywołać <strong>Listę dokumentów</strong>, np. z menu głównego <strong>Dokumenty</strong>. Następnie wybrać rodzaj dokumentu –&gt; <strong>G – paragon fiskalny</strong>, podać inne dane do filtrowania, np. zakres dat w którym poszukiwany dokument został zapisany i klawiszem <strong>Filtruj</strong> pobrać dokumenty.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="53%" />
+<col width="47%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>Po wyszukaniu interesującego nas dokumentu należy klawiszem <strong>Korekta rozmiaru</strong> wywołać okno <strong>KR – korekta rozmiaru – sprzedaż</strong>.</td>
+<td><a class="reference external" href="_zdj/4.7korroz.png"><img alt="zdj54" class="align-middle" src="../_images/4.7korroz.png" style="width: 484.0px; height: 364.0px;" /></a></td>
+</tr>
+<tr class="row-even"><td>W oknie <strong>KR – korekta rozmiaru – sprzedaż</strong> ukażą się pozycje dokumentu sprzedaży, należy wskazać towar do zamiany i kliknąć klawisz <strong>Zamień</strong>.</td>
+<td><a class="reference external" href="_zdj/4.7korekta.png"><img alt="zdj55" class="align-middle" src="../_images/4.7korekta.png" style="width: 506.0px; height: 342.5px;" /></a></td>
+</tr>
+<tr class="row-odd"><td>Po tym wyświetli się Lista towarów ze wskazanym towarem i wszystkimi rozmiarami/kolorami.</td>
+<td><a class="reference external" href="_zdj/4.7korlist.png"><img alt="zdj56" class="align-middle" src="../_images/4.7korlist.png" style="width: 449.0px; height: 348.5px;" /></a></td>
+</tr>
+<tr class="row-even"><td>Należy wybrać odpowiedni towar zamienny i kliknąć klawisz <strong>Wybierz</strong>. Program wróci do okna zapisu korekty i wyświetli jej nową zawartość.</td>
+<td><a class="reference external" href="_zdj/4.7korroz2.png"><img alt="zdj57" class="align-middle" src="../_images/4.7korroz2.png" style="width: 506.0px; height: 342.5px;" /></a></td>
+</tr>
+<tr class="row-odd"><td>Ponad tabelką z towarami są dwa klawisze <strong>Było</strong> i <strong>Ma być</strong>. Pod klawiszem Było jest poprzednia zawartość transakcji, a pod klawiszem <em>Ma być</em> jest proponowana nowa zawartość transakcji.</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>Zatwierdzenie operacji jest pod klawiszem <strong>OK</strong>. Natomiast wycofanie się z operacji korekty transakcji jest pod klawiszem <strong>Anuluj</strong>.</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>Operacja korekty rozmiaru w bazie danych zapisuje całą transakcję sprzedaży z przeciwnym znakiem (-) i dopisuje nową transakcję sprzedaży.</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>Jeśli do paragonu był już wcześniej wystawiany dokument korygujący, wtedy program poinformuje, że korygować można tylko ostatni dokument wystawiony dla tej transakcji.
+W takim przypadku – po zaakceptowaniu klawiszem <strong>OK</strong> - program wyświetli ostatni dokument dla tej transakcji i na nim należy przeprowadzić zamianę towaru na inny rozmiar/kolor.</td>
+<td><a class="reference external" href="_zdj/4.7wystaw.png"><img alt="zdj61" class="align-middle" src="../_images/4.7wystaw.png" style="width: 203.0px; height: 182.0px;" /></a></td>
+</tr>
+<tr class="row-odd"><td>Klawisz <strong>Zamknij</strong> spowoduje powrót do Listy dokumentów.</td>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="zamowienie-od-klienta">
+<h2>4.8 Zamówienie od klienta<a class="headerlink" href="#zamowienie-od-klienta" title="Stały odnośnik do tego nagłówka">¶</a></h2>
+<p><strong>Dopisywanie zamówień</strong></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="53%" />
+<col width="47%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><p class="first">Zamówienie od klienta na towar można wprowadzić:</p>
+<ul class="last simple">
+<li>z okna <strong>Lista dokumentów</strong> jak każdy inny dokument (klawisz Dodaj),</li>
+<li>lub z menu systemu w opcji <strong>Zamówienie od klienta</strong></li>
+<li>lub z okna obsługi zamówień będących w różnych stadiach realizacji – opcja <strong>Realizacja zamówień</strong> uruchamiana z menu systemu.</li>
+</ul>
+</td>
+<td><a class="reference external" href="_zdj/4.8za.png"><img alt="zdj63" class="align-middle" src="../_images/4.8za.png" style="width: 506.0px; height: 342.5px;" /></a></td>
+</tr>
+<tr class="row-even"><td>Tworząc nowe zamówienie należy podać dane klienta, korzystając z Listy kontrahentów oraz wybrać miejsce odbioru towaru: w salonie lub u klienta. Ta klasyfikacja porządkuje zamówienia oraz kieruje towar do odpowiedniego magazynu przy rozliczeniu zamówienia w centrali. Następnie należy wprowadzić towary, które klient zamawia, korzystając z Listy towarów. Można wprowadzić rabat procentowy lub kwotowy, o ile jest zdefiniowana taka możliwość dla dokumentu i sprzedawcy.</td>
+<td><a class="reference external" href="_zdj/4.8rabat.png"><img alt="zdj64" class="align-middle" src="../_images/4.8rabat.png" style="width: 196.5px; height: 160.0px;" /></a></td>
+</tr>
+<tr class="row-odd"><td>Po <strong>zaakceptowaniu</strong> treści zamówienia klawiszem <strong>OK</strong>, wyświetla się okienko <strong>Opis</strong> służące do wpisania komentarza do zamówienia. Ten komentarz jest drukowany na dokumencie zamówienia.</td>
+<td><a class="reference external" href="_zdj/4.8opis.png"><img alt="zdj65" class="align-middle" src="../_images/4.8opis.png" style="width: 449.5px; height: 302.0px;" /></a></td>
+</tr>
+<tr class="row-even"><td>Po tym wyświetla się okno <strong>Zaliczki</strong> do wprowadzenia pobranej zaliczki od klienta. Pod klawiszem <strong>Dodaj</strong> można wprowadzić wysokości zaliczki i formy płatności.</td>
+<td><a class="reference external" href="_zdj/4.8danezaliczki.png"><img alt="zdj66" class="align-middle" src="../_images/4.8danezaliczki.png" style="width: 269.5px; height: 221.5px;" /></a></td>
+</tr>
+<tr class="row-odd"><td>Po zatwierdzeniu zaliczki klawiszem <strong>OK</strong> wyświetla się pytanie, czy wydrukować paragon. Jeśli klikniemy klawisz <strong>Nie</strong>, wtedy zaliczka nie zostanie zapisana w bazie. Jest to równoznaczne z wycofaniem się z operacji przyjęcia zaliczki.</td>
+<td><a class="reference external" href="_zdj/4.8pytanieparagon.png"><img alt="zdj67" class="align-middle" src="../_images/4.8pytanieparagon.png" style="width: 118.5px; height: 80.0px;" /></a></td>
+</tr>
+<tr class="row-even"><td>Po zamknięciu okna zaliczek program automatycznie przechodzi do wydruku zamówienia.</td>
+<td><a class="reference external" href="_zdj/4.8zaliczki.png"><img alt="zdj68" class="align-middle" src="../_images/4.8zaliczki.png" style="width: 288.0px; height: 178.0px;" /></a></td>
+</tr>
+<tr class="row-odd"><td>Na dokumencie zamówienia oprócz klienta i towarów drukowane są zaliczki oraz inne stałe komentarze.</td>
+<td><a class="reference external" href="_zdj/4.8raportzamow.png"><img alt="zdj69" class="align-middle" src="../_images/4.8raportzamow.png" style="width: 400.5px; height: 318.0px;" /></a></td>
+</tr>
+</tbody>
+</table>
+<p>Wprowadzone zamówienia można przesłać automatycznie do Centrali korzystając
+z opcji <strong>Eksport dokumentów</strong> lub <strong>Eksport/Import Dokumentów</strong>.
+Dalsza obsługa zamówienia, jak dopisywanie zaliczek, korekta zamówienia, jego realizacja lub anulowanie odbywa się w opcji Realizacja zamówień - salon, wywoływanej z menu.
+Można dopisywać dowolną ilość zaliczek do zamówienia. W chwili realizacji i rozliczenia zamówienia wszystkie zaliczki są anulowane dokumentem anulowania zaliczki, oraz wystawiany jest paragon fiskalny do sprzedanych pozycji.</p>
+</div>
+<div class="section" id="realizacja-zamowien-w-salonie">
+<h2>4.9 Realizacja zamówień w salonie<a class="headerlink" href="#realizacja-zamowien-w-salonie" title="Stały odnośnik do tego nagłówka">¶</a></h2>
+<p>Ewidencja zamówień klientów i sprzedaż towarów na zamówienie w salonie odbywa się w cyklu:</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="100%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><ul class="first last simple">
+<li>wprowadzenie <strong>zamówienia od klienta</strong> i zaliczki</li>
+<li>przesyłanie zamówień do centrali/dostawcy. Wykorzystywana jest tutaj procedura automatycznego przesyłania dokumentów w opcji <strong>Eksport dokumentów</strong> lub <strong>Eksport/Import dokumentów</strong></li>
+<li>przyjmowanie dokumentów dostawy z centrali lub od dostawcy. Może być tutaj wykorzystana procedura automatycznego pobierania dokumentów dostawy w opcji <strong>Import dokumentów</strong> lub <strong>Eksport/Import dokumentów</strong>.</li>
+<li>korekty lub anulowanie zamówienia, dopisywanie zaliczek</li>
+<li>realizacja i rozliczenie zamówienia klienta.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Przesyłanie dokumentów do centrali i pobieranie dokumentów dostawy z centrali realizują wymienione wyżej opcje uruchamiane bezpośrednio z menu.
+Wszystkie pozostałe operacje związane z obsługą zamówienia wykonywane są w opcji Realizacja zamówień uruchamianej z menu. Tutaj w oknie <strong>Zamówienia</strong> można wprowadzić zamówienie do systemu, przyjąć zaliczkę, zrealizować zamówienie i rozliczyć je lub anulować albo poprawić je.
+Zamówienie można <strong>zrealizować częściowo</strong> jeśli nie ma w magazynie zamawianego towaru lub całkowicie. W oknie wyświetlającym informacje o zamówieniu – pod klawiszem Informacja – pozycje towarowe, których nie ma w magazynie, wyświetlają się na czerwono.
+W oknie <em>Informacje</em> można również prowadzić notatki związane z danym zamówieniem. Wpisuje się je w dolnej sekcji okna: Uwagi.</p>
+<p>Okno <em>Zamówienia</em> posiada kilka zakładek z pogrupowanymi zamówieniami:</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><ul class="first last simple">
+<li><strong>Do realizacji</strong></li>
+<li><strong>Możliwe do realizacji</strong></li>
+<li><strong>Możliwe 100% do realizacji</strong></li>
+</ul>
+</td>
+<td><ul class="first last simple">
+<li><strong>Częściowo zrealizowane</strong></li>
+<li><strong>Zamknięte</strong></li>
+<li><strong>Zrealizowane</strong></li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p>oraz klawisze funkcyjne do filtrowania, edycji i realizacji zamówień:</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="53%" />
+<col width="47%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><ul class="first last simple">
+<li>filtrowanie:</li>
+<li>edycja:</li>
+<li>realizacja:</li>
+</ul>
+</td>
+<td><p class="first"><strong>Filtruj, Pokaz wszystkie, Wyczyść Pola</strong></p>
+<p><strong>Dodaj, Usuń, Drukuj</strong></p>
+<p class="last"><strong>Informacje, Zaliczki, Zrealizuj, Paragon, Zamknij zamówienie</strong></p>
+</td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="docutils">
+<colgroup>
+<col width="53%" />
+<col width="47%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>Pierwsza zakładka <strong>Do realizacji</strong> zawiera wszystkie zamówienia, które nie zostały całkowicie zrealizowane i zamknięte.</td>
+<td><a class="reference external" href="_zdj/4.9zamow.png"><img alt="zdj72" class="align-middle" src="../_images/4.9zamow.png" style="width: 355.0px; height: 263.5px;" /></a></td>
+</tr>
+<tr class="row-even"><td colspan="2"><p class="first">Druga zakładka <strong>Możliwe do realizacji</strong> zawiera zamówienia, które są częściowo możliwe do realizacji.</p>
+<p>Zakładka <strong>Możliwe 100%</strong> do realizacji zawiera zamówienia, dla których w całości jest towar w magazynie.</p>
+<p>Zakładka <strong>Częściowo zrealizowane</strong> to zamówienia, z których klient juz częściowo odebrał towar i oczekuje na dalszą realizację.</p>
+<p>Zakładka <strong>Zamknięte</strong> zawiera zamówienia, które zostały już całkowicie rozliczone z klientem, zostały zrealizowane bądź zamknięte bez realizacji.</p>
+<p class="last">Zakładka <strong>Zrealizowane</strong> zawiera zamówienia, z których towar został już sprzedany klientowi, jednak nie jest jeszcze ono całkowicie rozliczone z klientem.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Zamówienie niezrealizowane na pewno znajdzie się w zakładce <em>Do realizacji</em> oraz może się znaleźć w zakładce <em>Możliwe do realizacji</em> albo <em>Możliwe 100% do realizacji</em> albo w żadnej innej.</p>
+<p><strong>Pola i klawisze funkcyjne w oknie Zamówienia można podzielić na następujące grupy:</strong></p>
+<ol class="arabic simple">
+<li>służące do <strong>filtrowania</strong> zamówień</li>
+<li>służące do <strong>edycji</strong> zamówienia</li>
+<li>służące do obsługi <strong>realizacji</strong> zamówienia</li>
+</ol>
+<p>oraz dwa standardowe klawisze funkcyjne: <strong>Panel grupowania</strong> oraz <strong>Dostosuj widok</strong>, których działanie jest opisane w oddzielnych sekcjach</p>
+<p><strong>Pola i klawisze służące do filtrowania zamówień to:</strong></p>
+<ul class="simple">
+<li>pola <strong>Data od i do</strong> – &gt; okres z którego program ma pobrać zamówienia .</li>
+<li>pole <strong>Kontrahent</strong> i klawisz <strong>Lista</strong>: służące do wskazania wybranego klienta, którego zamówienia chcemy wyświetlić.</li>
+<li>pole <strong>Kod dokumentu</strong> – daje możliwość wczytania kodu paskowego z wydruku zamówienia, jeśli chcemy to zamówienie odszukać w systemie. Aby wczytać kod czytnikiem należy najpierw ustawić kursor w tym polu.</li>
+<li>klawisz <strong>Filtruj</strong> – jego klikniecie powoduje wybranie z bazy danych zamówień o podanych kryteriach.</li>
+<li>klawisz <strong>Wyczyść pola</strong> – usuwa zadane kryteria w wyżej opisanych polach, aby móc wprowadzić nowe.</li>
+<li>klawisz <strong>Pokaż wszystkie</strong> – wybiera wszystkie zamówienia zapisane dotychczas w bazie danych. Taka operacja może trwać długo i nie jest zalecana, chyba że zamówień jest niewiele.</li>
+</ul>
+<p><strong>Klawisze służące do edycji zamówienia to:</strong></p>
+<ul class="simple">
+<li><strong>Dodaj</strong> – tym klawiszem uruchamia się funkcję dopisywania nowego zamówienia. Zapis zamówienia został szczegółowo opisanym w odrębnej sekcji <em>Zamówienia klienta - dopisanie</em>.</li>
+<li><strong>Usuń</strong> – pozwala usunąć zamówienie klienta, przedtem jednak program żąda potwierdzenia decyzji. Jeśli zamówienie jest już zamknięte, wtedy program nie pozwala go usunąć.</li>
+<li><strong>Drukuj</strong> – pozwala powtórnie wydrukować dokument zamówienia.</li>
+</ul>
+<p><strong>Klawisze służące do realizacji zamówienia to:</strong></p>
+<ul class="simple">
+<li><strong>Informacje</strong> – tym klawiszem wyświetla się okno <em>Informacje o zamówieniu</em>, zawierające szczegółowe dane, czyli datę i numer oraz wartość zamówienia, wysokość zaliczek, dane klienta i zamówione towary oraz pole <em>Uwagi</em> do wpisywania notatek do zamówienia.</li>
+</ul>
+<p>Jeśli zamówienie nie jest jeszcze całkowicie zrealizowane, wtedy pozycje, które mogą być już zrealizowane wyświetlają się w czarnym kolorze, a pozycje, dla których nie ma jeszcze towaru w magazynie wyświetlą się kolorem czerwonym.
+Na ekranie obok pokazane jest zamówienie z jedną pozycją już zrealizowaną i jedną pozycją, której nie można jeszcze zrealizować.</p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Nawigacja</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="Indeks ogólny"
+             >indeks</a></li>
+        <li class="right" >
+          <a href="kasa.html" title="5. Kasa Główna"
+             >dalej</a> |</li>
+        <li class="right" >
+          <a href="doku.html" title="3. Dokumenty w systemie Retilia.Point"
+             >wstecz</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">Instrukcja Retilia.Point</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &copy; Copyright 2016, Retilia Sp. z o.o..
+    </div>
+  </body>
+</html>

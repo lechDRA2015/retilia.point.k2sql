@@ -1,0 +1,393 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>2. Baza kontrahentów w systemie Retilia.Point &mdash; Instrukcja Systemu Retilia.Point</title>
+  
+
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+    <link rel="top" title="Instrukcja Systemu Retilia.Point" href="../index.html"/>
+        <link rel="next" title="3. Dokumenty w systemie Retilia.Point" href="doku.html"/>
+        <link rel="prev" title="1. Słownik towarów" href="slow.html"/> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Instrukcja Retilia.Point
+          
+
+          
+            
+            <img src="../_static/retilia_logo.jpg" class="logo" />
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+                <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="slow.html">1. Słownik towarów</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">2. Baza kontrahentów w systemie Retilia.Point</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#dopisywanie-nowego-kontrahenta">2.1 Dopisywanie nowego kontrahenta</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#poprawianie-informacji-o-kontrahencie">2.2  Poprawianie informacji o kontrahencie</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#prezentacja-listy-kontrahentow">2.3 Prezentacja listy kontrahentów</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#uzyskiwanie-szczegolowych-informacji-o-kontrahencie">2.4 Uzyskiwanie szczegółowych informacji o kontrahencie</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#usuwanie-pozycji-z-listy-kontrahentow">2.5 Usuwanie pozycji z listy kontrahentów</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="doku.html">3. Dokumenty w systemie Retilia.Point</a></li>
+<li class="toctree-l1"><a class="reference internal" href="sprz.html">4. Sprzedaż</a></li>
+<li class="toctree-l1"><a class="reference internal" href="kasa.html">5. Kasa Główna</a></li>
+<li class="toctree-l1"><a class="reference internal" href="dokumag.html">6. Dokumenty magazynowe</a></li>
+<li class="toctree-l1"><a class="reference internal" href="rap.html">7.Raporty w systemie Retilia.Point</a></li>
+<li class="toctree-l1"><a class="reference internal" href="graf.html">8.Graficzna prezentacja danych</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../index.html">Instrukcja Retilia.Point</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+ 
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../index.html">Docs</a> &raquo;</li>
+      
+    <li>2. Baza kontrahentów w systemie Retilia.Point</li>
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../_sources/_main/dane.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="baza-kontrahentow-w-systemie-retilia-point">
+<h1>2. Baza kontrahentów w systemie Retilia.Point<a class="headerlink" href="#baza-kontrahentow-w-systemie-retilia-point" title="Stały odnośnik do tego nagłówka">¶</a></h1>
+<p><strong>W systemie Retilia.Point istnieje możliwość stworzenia bazy kontrahentów. W celu dodania nowych kontrahentów do bazy, należy ich wprowadzić do systemu Retilia.Point i zapisać.</strong></p>
+<p><strong>Poniższa instrukcja opisuje metodę dodawania kontrahentów do bazy Retilia.Point oraz sposób zarządzania Listą kontrahentów.</strong></p>
+<div class="section" id="dopisywanie-nowego-kontrahenta">
+<h2>2.1 Dopisywanie nowego kontrahenta<a class="headerlink" href="#dopisywanie-nowego-kontrahenta" title="Stały odnośnik do tego nagłówka">¶</a></h2>
+<table border="1" class="docutils">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>W celu dodania nowego kontrahenta należy wcisnąć przycisk <strong>Dodaj</strong> w oknie <strong>Lista kontrahentów</strong>.</td>
+<td><a class="reference external" href="_zdj/2.1lkon.png"><img alt="zdj1" class="align-middle" src="../_images/2.1lkon.png" style="width: 459.0px; height: 310.0px;" /></a></td>
+</tr>
+<tr class="row-even"><td>W oknie <strong>Dane kontrahenta</strong> należy wpisać dane nowego kontrahenta. Do tego celu służą poszczególne pola tekstowe w głównym oknie jak i w poszczególnych zakładkach (Adres, Kontakt, Płatności, Dostawa, Opis, Rabat/Ceny-towary, Rabat – grupy towarowe, Opis dodatkowy). Dane kontrahenta wprowadzone w tym miejscu są następnie wykorzystywane przez system w każdej sytuacji, gdy kontrahent będzie stroną transakcji.</td>
+<td><a class="reference external" href="_zdj/2.1lkondod.png"><img alt="zdj2" class="align-middle" src="../_images/2.1lkondod.png" style="width: 297.0px; height: 263.5px;" /></a></td>
+</tr>
+<tr class="row-odd"><td>Dane Kontrahenta opisują następujące parametry:</td>
+<td><ul class="first last simple">
+<li><strong>Nazwa Skrócona</strong> – należy podać nazwę skróconą (jeśli jest, np. ELAN),</li>
+<li><strong>Nazwa pełna</strong> – (np. Zakład Usług Elektrycznych) oraz ewentualnie dodatkową i uzupełniającą.</li>
+<li><strong>REGON</strong> – Regon kontrahenta</li>
+<li><strong>NIP</strong> – NIP kontrahenta</li>
+<li><strong>PESEL</strong> – PESEL kontrahenta</li>
+<li><strong>Skrót</strong> – Skrót nazwy firmy (np. ELAN)</li>
+</ul>
+</td>
+</tr>
+<tr class="row-even"><td><p class="first">W  zakładce <strong>Adres</strong>, użytkownik wprowadza dane adresowe kontrahenta:</p>
+<ul class="last simple">
+<li><strong>Kod</strong> – kod pocztowy kontrahenta.</li>
+<li><strong>Miasto</strong> – miasto, w którym znajduje się siedziba kontrahenta.</li>
+<li><strong>Dzielnica</strong> – dzielnica, w której znajduje się siedziba kontrahenta.</li>
+<li><strong>Ulica</strong> – ulica przy której znajduje się siedziba kontrahenta.</li>
+<li><strong>Nr domu i numer mieszkania</strong> – numer domu i mieszkania w którym znajduje się siedziba kontrahenta.</li>
+<li><strong>Państwo</strong> – państwo, z którego kontrahent pochodzi.</li>
+<li><strong>Ustaw jako miejsce dostawy</strong> – dane adresowe zostaną automatycznie przeniesione do pola Miejsce dostawy.</li>
+</ul>
+</td>
+<td><a class="reference external" href="_zdj/2.1lkondod1.png"><img alt="zdj4" class="align-middle" src="../_images/2.1lkondod1.png" style="width: 297.0px; height: 263.5px;" /></a></td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="docutils">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>W zakładce <strong>Kontakt</strong>, użytkownik wprowadza dane do kontaktu z kontrahentem (Numer telefonu, email, pager, nazwisko pracownika do kontaktu, a także kod kreskowy przypisany kontrahentowi. W tej zakładce można również zdefiniować grupę, do jakiej kontrahent należy (dostawca, odbiorca, sprzedawca, pracownik), a także przysługujący kontrahentowi rabat.</td>
+<td><a class="reference external" href="_zdj/2.1lkondod2.png"><img alt="zdj5" class="align-middle" src="../_images/2.1lkondod2.png" style="width: 297.0px; height: 263.5px;" /></a></td>
+</tr>
+<tr class="row-even"><td>Zakładka <strong>Płatności</strong> służy do wprowadzenia informacji na temat konta bankowego kontrahenta, adresu banku, ewentualnych kredytów wraz z progami oraz czasu dostawy, a także forma płatności i ryzyka przypisanego kontrahentowi.</td>
+<td><a class="reference external" href="_zdj/2.1lkondod3.png"><img alt="zdj6" class="align-middle" src="../_images/2.1lkondod3.png" style="width: 297.0px; height: 263.5px;" /></a></td>
+</tr>
+<tr class="row-odd"><td>W zakładce <strong>Dostawa</strong>, użytkownik określa miejsce dostawy dla danego kontrahenta. Jeśli miejsce dostawy jest identyczne z adresem kontrahenta, za pomocą przycisku <strong>Ustaw jako miejsce dostawy</strong>, użytkownik ma możliwość automatycznego przeniesienia danych z zakładki <strong>Adres</strong> do zakładki <strong>Dostawa</strong>.</td>
+<td><a class="reference external" href="_zdj/2.1lkondod4.png"><img alt="zdj7" class="align-middle" src="../_images/2.1lkondod4.png" style="width: 297.0px; height: 263.5px;" /></a></td>
+</tr>
+<tr class="row-even"><td>W zakładce <strong>Opis</strong>, użytkownik może wprowadzić dodatkowe informacje o kontrahencie.</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>Zakładka <strong>Rabat/Ceny-towary</strong> pozwala na przypisania rabatu kontrahentowi na dany towar lub określić stałą cenę na wybrany towar dla danego kontrahenta.</td>
+<td><a class="reference external" href="_zdj/2.1lkondodrab.png"><img alt="zdj9" class="align-middle" src="../_images/2.1lkondodrab.png" style="width: 297.0px; height: 263.5px;" /></a></td>
+</tr>
+<tr class="row-even"><td>Zakładka <strong>Rabat – grupy towarowe</strong>, służy do przydzielenia rabatu dla kontrahenta na asortyment z wybranej grupy towarowej, asortymentowej lub spod podgrup.</td>
+<td><a class="reference external" href="_zdj/2.1lkondodrabtow.png"><img alt="zdj10" class="align-middle" src="../_images/2.1lkondodrabtow.png" style="width: 297.0px; height: 263.5px;" /></a></td>
+</tr>
+<tr class="row-odd"><td>W zakładce <strong>Opis dodatkowy</strong>, użytkownik ma możliwość wprowadzenia dodatkowych cech kontrahenta, czy informacji o kontrahencie.</td>
+<td><a class="reference external" href="_zdj/2.1lkondodopis.png"><img alt="zdj11" class="align-middle" src="../_images/2.1lkondodopis.png" style="width: 297.0px; height: 263.5px;" /></a></td>
+</tr>
+</tbody>
+</table>
+<p>Po wprowadzeniu danych kontrahenta należy nacisnąć przycisk <strong>OK</strong> w celu zapisania wprowadzonych informacji w systemie Retilia.Point.</p>
+</div>
+<div class="section" id="poprawianie-informacji-o-kontrahencie">
+<h2>2.2  Poprawianie informacji o kontrahencie<a class="headerlink" href="#poprawianie-informacji-o-kontrahencie" title="Stały odnośnik do tego nagłówka">¶</a></h2>
+<p><strong>Poprawianie informacji o kontrahencie umożliwia wprowadzenie zmian w bazie Retilia.Point dla określonego kontrahenta.</strong></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>W celu wprowadzenia zmian, należy odnaleźć żądanego kontrahenta w oknie <strong>Lista kontrahentów</strong> lub wyświetlić wszystkich kontrahentów z listy kontrahentów (za pomocą przycisku <strong>Pokaż wszystkich</strong> i odnaleźć na niej żądanego kontrahenta). Następnie należy wybrać go klikając lewym klawiszem myszy lub używając klawiszy strzałek na klawiaturze i nacisnąć przycisk <strong>Pokaż</strong>.
+W oknie <strong>Dane kontrahenta</strong> należy wcisnąć przycisk <strong>Edytuj</strong>.</td>
+<td><a class="reference external" href="_zdj/2.2edytuj.png"><img alt="zdj12" class="align-middle" src="../_images/2.2edytuj.png" style="width: 297.0px; height: 263.5px;" /></a></td>
+</tr>
+</tbody>
+</table>
+<p>Po wprowadzeniu zmian, w celu zapamiętania ich w systemie należy nacisnąć przycisk <strong>OK</strong>.</p>
+<div class="admonition warning">
+<p class="first admonition-title">Ostrzeżenie</p>
+<p class="last"><strong>Uwaga!</strong> Dostęp do poprawiania informacji o kontrahencie zależy od uprawnień jakie posiada dany użytkownik. W razie braku możliwości edycji danych dotyczących wybranego kontrahenta, należy wylogować się z systemu i uruchomić go ponownie, logując się jako użytkownik, który posiada szersze uprawnienia (np. Administrator, Kierownik lub Dyrektor – w zależności od konfiguracji systemu).</p>
+</div>
+</div>
+<div class="section" id="prezentacja-listy-kontrahentow">
+<h2>2.3 Prezentacja listy kontrahentów<a class="headerlink" href="#prezentacja-listy-kontrahentow" title="Stały odnośnik do tego nagłówka">¶</a></h2>
+<p><strong>Lista kontrahentów zawiera spis kontrahentów w systemie Retilia.Point. W celu wyświetlenia Listy kontrahentów, należy wykonać następujące czynności:</strong></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="53%" />
+<col width="47%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>W głównym oknie programu Retilia.Point należy wybrać opcję <strong>Lista kontrahentów</strong> z menu systemu.</td>
+<td><a class="reference external" href="_zdj/2.3menu.png"><img alt="zdj13" class="align-middle" src="../_images/2.3menu.png" style="width: 566.0px; height: 346.0px;" /></a></td>
+</tr>
+<tr class="row-even"><td>Po wybraniu opcji <strong>Lista Kontrahentów</strong>, uruchomiony zostanie odpowiedni program i wyświetli się okno z tablicą kontrahentów.</td>
+<td><a class="reference external" href="_zdj/2.3lkon.png"><img alt="zdj14" class="align-middle" src="../_images/2.3lkon.png" style="width: 373.0px; height: 310.0px;" /></a></td>
+</tr>
+<tr class="row-odd"><td><p class="first">Zakres kontrahentów, którzy będą wyświetlani na ekranie, określa użytkownik za pomocą parametrów, które należy podać w górnej części okna, w sekcji <strong>Filtr</strong>.</p>
+<p>Wyboru kontrahentów można dokonać za pomocą (jednej lub kilku) następujących parametrów:</p>
+<ul class="last simple">
+<li><strong>Skrót</strong> – Skrót nazwy firmy (np. ALTAIR)</li>
+<li><strong>Nazwa</strong> – Nazwa kontrahenta</li>
+<li><strong>REGON</strong> – Regon kontrahenta</li>
+<li><strong>NIP</strong> – NIP kontrahenta</li>
+<li><strong>Miasto</strong> – miasto, w którym znajduje się siedziba kontrahenta</li>
+<li><strong>Ulica</strong> – ulica przy której znajduje się siedziba kontrahenta</li>
+<li><strong>Kod pocztowy</strong> – kod pocztowy</li>
+<li><strong>Grupa</strong> – grupa do jakiej należy kontrahent (np. Dostawcy, odbiorcy)</li>
+<li>Po wpisaniu (jednego lub kilku) powyższych parametrów, należy nacisnąć klawisz <strong>Filtruj</strong>.</li>
+<li><strong>Wyczyść pola</strong> – kasuje zawartość wymienionych wyżej pól.</li>
+<li><strong>Pokaż wszystkich</strong> – wyświetla wszystkich kontrahentów.</li>
+</ul>
+</td>
+<td><a class="reference external" href="_zdj/2.3lkon1.png"><img alt="zdj15" class="align-middle" src="../_images/2.3lkon1.png" style="width: 373.0px; height: 310.0px;" /></a></td>
+</tr>
+<tr class="row-even"><td>Po zakończeniu prezentacji kontrahentów, należy wybrać kontrahenta z wyświetlonej listy, naciskając klawisz <strong>Wybierz</strong> lub zrezygnować naciskając klawisz <strong>Zamknij</strong>.</td>
+<td><a class="reference external" href="_zdj/2.3lkongroup.png"><img alt="zdj16" class="align-middle" src="../_images/2.3lkongroup.png" style="width: 373.0px; height: 310.0px;" /></a></td>
+</tr>
+</tbody>
+</table>
+<p>Lista kontrahentów umożliwia sortowanie kontrahentów według nagłówka kolumny (malejąco lub rosnąco). Naciśniecie nagłówka kolumny sortuje wyświetlonych kontrahentów według nazwy kolumny.</p>
+<p>Nazwy kolumn które będą wyświetlane, użytkownik określa w oknie <strong>Dostosuj widok</strong> (<strong>Dostosuj</strong>, zakładka <strong>Kolumny</strong>).</p>
+<p>Zakładka <strong>Kolory</strong> w tym samym oknie umożliwia dostosowanie wyglądu okna do potrzeb użytkownika.</p>
+</div>
+<div class="section" id="uzyskiwanie-szczegolowych-informacji-o-kontrahencie">
+<h2>2.4 Uzyskiwanie szczegółowych informacji o kontrahencie<a class="headerlink" href="#uzyskiwanie-szczegolowych-informacji-o-kontrahencie" title="Stały odnośnik do tego nagłówka">¶</a></h2>
+<p><strong>Wyświetlenie informacji szczegółowych o kontrahencie pozwoli na zapoznanie się z danymi na temat wybranego kontrahenta zapisanymi w bazie systemu Retilia.Point.</strong></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="53%" />
+<col width="47%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>W celu wyświetlenia wszystkich danych wybranego kontrahentów należy odnaleźć go w oknie <strong>Lista kontrahentów</strong>, za pomocą przycisku <strong>Filtruj</strong> lub wyświetlić wszystkich kontrahentów z listy kontrahentów  za pomocą przycisku <strong>Pokaż wszystkich</strong> i odnaleźć na niej żądanego kontrahenta. Następnie należy wybrać go klikając lewym klawiszem myszy lub używając klawiszy strzałek na klawiaturze i nacisnąć przycisk <strong>Pokaż</strong>.</td>
+<td><a class="reference external" href="_zdj/2.3lkonwsz.png"><img alt="zdj17" class="align-middle" src="../_images/2.3lkonwsz.png" style="width: 375.0px; height: 310.0px;" /></a></td>
+</tr>
+<tr class="row-even"><td>System prezentuje dane na temat wybranego kontrahenta w oknie <strong>Dane kontrahenta</strong>. Po obejrzeniu danych kontrahenta należy wcisnąć przycisk <strong>Zamknij</strong>.</td>
+<td><a class="reference external" href="_zdj/2.3lkonpok.png"><img alt="zdj18" class="align-middle" src="../_images/2.3lkonpok.png" style="width: 297.0px; height: 263.5px;" /></a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="usuwanie-pozycji-z-listy-kontrahentow">
+<h2>2.5 Usuwanie pozycji z listy kontrahentów<a class="headerlink" href="#usuwanie-pozycji-z-listy-kontrahentow" title="Stały odnośnik do tego nagłówka">¶</a></h2>
+<p><strong>Usuwanie pozycji z listy kontrahentów ma na celu wykasowanie danych wybranego kontrahenta z bazy systemu Retilia.Point.</strong></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="53%" />
+<col width="47%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>W celu usunięcia pozycji z listy kontrahentów należy odnaleźć kontrahenta w oknie <strong>Lista kontrahentów</strong> za pomocą Filtruj lub wyświetlić kontrahentów z listy kontrahentów za pomocą przycisku <strong>Pokaż wszystkich</strong> i odnaleźć na niej żądanego kontrahenta. Następnie należy wybrać go  i kliknąć lewym klawiszem myszy <strong>Usuń</strong>. W celu potwierdzenia zamiaru usunięcia pozycji z listy kontrahenta należy wcisnąć przycisk <strong>TAK</strong>.</td>
+<td><a class="reference external" href="_zdj/2.5lkonusun.png"><img alt="zdj19" class="align-middle" src="../_images/2.5lkonusun.png" style="width: 375.0px; height: 310.0px;" /></a></td>
+</tr>
+</tbody>
+</table>
+<div class="admonition warning">
+<p class="first admonition-title">Ostrzeżenie</p>
+<p class="last"><strong>Uwaga!</strong> Dostęp do usuwania pozycji z listy kontrahentów zależy od uprawnień jakie posiada dany użytkownik. W razie braku możliwości usunięcia danych dotyczących wybranego kontrahenta, należy wylogować się z systemu i uruchomić go ponownie, logując się jako użytkownik, który posiada szersze uprawnienia.</p>
+</div>
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="doku.html" class="btn btn-neutral float-right" title="3. Dokumenty w systemie Retilia.Point" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="slow.html" class="btn btn-neutral" title="1. Słownik towarów" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2016, Retilia Sp. z o.o..
+
+    </p>
+  </div> 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'1.0',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+      <script type="text/javascript" src="../_static/translations.js"></script>
+      <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

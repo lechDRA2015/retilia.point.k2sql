@@ -1,0 +1,422 @@
+
+
+<!doctype html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pl">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>6. Dokumenty magazynowe &mdash; Instrukcja Systemu Retilia.Point</title>
+    
+    <link rel="stylesheet" href="../_static/bizstyle.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '1.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/translations.js"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript" src="../_static/bizstyle.js"></script>
+    <link rel="top" title="Instrukcja Systemu Retilia.Point" href="../index.html" />
+    <link rel="next" title="7.Raporty w systemie Retilia.Point" href="rap.html" />
+    <link rel="prev" title="5. Kasa Główna" href="kasa.html" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="_static/css3-mediaqueries.js"></script>
+    <![endif]-->
+  </head>
+  <body role="document">
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Nawigacja</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="Indeks ogólny"
+             accesskey="I">indeks</a></li>
+        <li class="right" >
+          <a href="rap.html" title="7.Raporty w systemie Retilia.Point"
+             accesskey="N">dalej</a> |</li>
+        <li class="right" >
+          <a href="kasa.html" title="5. Kasa Główna"
+             accesskey="P">wstecz</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">Instrukcja Retilia.Point</a> &raquo;</li> 
+      </ul>
+    </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+            <p class="logo"><a href="../index.html">
+              <img class="logo" src="../_static/retilia_logo.jpg" alt="Logo"/>
+            </a></p>
+  <h3><a href="../index.html">Spis treści</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">6. Dokumenty magazynowe</a><ul>
+<li><a class="reference internal" href="#dokument-mm">6.1 Dokument MM</a></li>
+<li><a class="reference internal" href="#dokument-pz">6.2 Dokument PZ</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Poprzedni temat</h4>
+  <p class="topless"><a href="kasa.html"
+                        title="poprzedni rozdział">5. Kasa Główna</a></p>
+  <h4>Następny temat</h4>
+  <p class="topless"><a href="rap.html"
+                        title="następny rozdział">7.Raporty w systemie Retilia.Point</a></p>
+  <div role="note" aria-label="source link">
+    <h3>Ta strona</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/_main/dokumag.txt"
+            rel="nofollow">Pokaż źródło</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Szybkie wyszukiwanie</h3>
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Szukaj" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="dokumenty-magazynowe">
+<h1>6. Dokumenty magazynowe<a class="headerlink" href="#dokumenty-magazynowe" title="Stały odnośnik do tego nagłówka">¶</a></h1>
+<div class="section" id="dokument-mm">
+<h2>6.1 Dokument MM<a class="headerlink" href="#dokument-mm" title="Stały odnośnik do tego nagłówka">¶</a></h2>
+<p><strong>Dokument MM (Przesunięcie między magazynami) jest dowodem magazynowego przesunięcia towaru np. z centrali do sklepu.</strong></p>
+<p>Dokumenty MM mogą być wprowadzane do systemu pojedynczo przez operatora systemu lub w automatycznej procedurze importu dokumentów. Tutaj opisany jest ręczny sposób wprowadzania danych.</p>
+<p>Niezbędne informacje, które powinny zostać zapisane do systemu podczas wprowadzania dokumentu MM to:</p>
+<p><strong>W nagłówku:</strong></p>
+<ul class="simple">
+<li>rodzaj / symbol dokumentu</li>
+<li>data</li>
+<li>numer dokumentu</li>
+<li>kontrahent</li>
+<li>magazyn wydający</li>
+<li>magazyn przyjmujący</li>
+</ul>
+<p><strong>W treści – pozycji towarowej:</strong></p>
+<ul class="simple">
+<li>nazwa towaru i jego symbol oraz ew. inne oznakowania</li>
+<li>ilość</li>
+</ul>
+<table border="1" class="docutils">
+<colgroup>
+<col width="53%" />
+<col width="47%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>Na dokumencie MM cena towaru jest przekazywana automatycznie i operator jej nie wprowadza.</td>
+<td><a class="reference external" href="_zdj/6.1mm.png"><img alt="zdj1" class="align-middle" src="../_images/6.1mm.png" style="width: 506.0px; height: 342.5px;" /></a></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Nagłówek</strong></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="53%" />
+<col width="47%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><strong>Rodzaj / symbol dokumentu</strong>
+Jeżeli procedura zapisu dokumentu MM wywoływana jest bezpośrednio z menu programu, wtedy ten rodzaj uzupełnia się automatycznie i wyświetla w oknie do wprowadzania w polu <strong>Rodzaj</strong>.
+Jeżeli natomiast procedura zapisu dokumentu jest wywoływana poprzez klawisz <strong>Dodaj</strong> z Listy dokumentów, wtedy należy wybrać z listy znajdującej się pod strzałką pola <strong>Rodzaj</strong> odpowiedni dokument, czyli <em>”MM Przesunięcie towaru między magazynami”</em>.</td>
+<td><a class="reference external" href="_zdj/6.1mm.png"><img alt="zdj2" class="align-middle" src="../_images/6.1mm.png" style="width: 506.0px; height: 342.5px;" /></a></td>
+</tr>
+<tr class="row-even"><td><strong>Data</strong> wstawia się automatycznie bieżąca, chcąc ją zmienić można wpisać inną datę lub wyświetlić strzałką obok kalendarz i wybrać odpowiednią datę.</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td><strong>Numer dokumentu</strong> pobiera się automatycznie z bazy danych jako kolejny. Można go w razie potrzeby zmienić na inny.</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td><p class="first"><strong>Kontrahent</strong> – obok pola Kontrahent znajdują sie dwa klawisze: <strong>Lista</strong> i Domyślny**.</p>
+<p class="last">Klawisz <strong>Lista</strong> wywołuje listę kontrahentów, z której trzeba wybrać właściwego. Wybór kontrahenta ułatwi filtrowanie wg zadanego parametru. Można wpisać skrót dla danego kontrahenta lub część nazwy lub NIP, albo miasto, ulicę lub grupę kontrahentów. W zestawie parametrów może być jeden lub kilka. Po wpisaniu parametru/ów/ trzeba kliknąć klawisz <strong>Filtruj</strong> lub <strong>Filtruj w...</strong> . <strong>Filtruj w...</strong> przeszukuje całą zawartość odpowiedniego pola w bazie kontrahentów i szuka ciągu podanych znaków, a klawisz <strong>Filtruj</strong> bierze pod uwagę pierwsze znaki odpowiedniego pola i porównuje z podanym parametrem. Program wyszuka i wyświetli wszystkich kontrahentów, których dane spełniają zadane kryteria.</p>
+</td>
+<td><a class="reference external" href="_zdj/6.1listkon.png"><img alt="zdj5" class="align-middle" src="../_images/6.1listkon.png" style="width: 373.0px; height: 310.0px;" /></a></td>
+</tr>
+<tr class="row-odd"><td><p class="first">Klawisz <strong>Pokaż wszystkie</strong> – jego kliknięcie spowoduje, że program pobierze wszystkich kontrahentów i wyświetli ich na ekranie.</p>
+<p>Jeśli nie ma jeszcze tego kontrahenta w bazie danych to można go dodać wywołując procedurę zapisu nowego kontrahenta klawiszem <strong>Dodaj</strong> na Liście kontrahentów.</p>
+<p class="last">Po wskazaniu kontrahenta na liście należy kliknąć klawisz <strong>Wybierz</strong> i dane zostaną przeniesione na dokument. Klawisz <strong>Domyślny</strong> pozwala przywrócić kontrahenta, który przypisany jest do dokumentów MM jako domyślny w definicji dokumentu.</p>
+</td>
+<td><a class="reference external" href="_zdj/6.1mm2.png"><img alt="zdj6" class="align-middle" src="../_images/6.1mm2.png" style="width: 506.0px; height: 342.5px;" /></a></td>
+</tr>
+<tr class="row-even"><td><strong>Magazyn</strong> dla dokumentu MM może być określony na stałe w definicji dokumentu, może być też kilka magazynów przyjmujących. Jeśli jest określony jeden, wtedy w oknie dokumentu wyświetla się on automatycznie, w przeciwnym razie operator musi wskazać właściwy magazyn wybierając go z listy magazynów (pod strzałką obok pola <strong>Magazyn</strong>) lub wpisując odpowiedni symbol.</td>
+<td><a class="reference external" href="_zdj/6.1magazyn.png"><img alt="zdj7" class="align-middle" src="../_images/6.1magazyn.png" style="width: 506.0px; height: 342.5px;" /></a></td>
+</tr>
+</tbody>
+</table>
+<p>Dopiero po uzupełnieniu powyższych danych aktywnym staje się klawisz Dodaj, który umożliwia dopisanie pozycji do dokumentu oraz pole Kod i obok klawisz Lista, którym uruchamia się okno z listą towarów. Natomiast po wprowadzeniu pierwszej pozycji aktywnymi stają sie pozostałe klawisze na dole okna służące do edycji dokumentu.</p>
+<p><strong>Treść – pozycja towarowa</strong></p>
+<p>Podwójnym klikiem na pozycji lub klawiszem spacji z klawiatury zaznaczamy towary do przeniesienia na dokument. Po zaznaczeniu wybranych towarów klikamy klawisz <strong>Wybierz</strong> i przechodzimy do następnego etapu zapisu dokumentu – do wprowadzenia ilości w oknie <strong>Towar</strong>.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="53%" />
+<col width="47%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><p class="first">Dodanie pozycji towarowej do dokumentu może odbywać się na kilka sposobów, poprzez:</p>
+<ul class="simple">
+<li>wczytanie kodu kreskowego towaru w polu <strong>Kod</strong></li>
+<li>wprowadzenie kodu PLU w polu <strong>Kod</strong></li>
+<li>poprzez klawisz <strong>Lista</strong> lub <strong>Dodaj</strong> i wybór towaru z <em>Listy towarów</em>. Na liście towarów można wskazać od razu wiele pozycji towarowych i kliknąć klawisz <strong>Wybierz</strong>.</li>
+</ul>
+<p class="last">Na Liście towarów można podać parametry towarów do wyświetlenia (np.: grupa towarowa lub część nazwy lub kod kreskowy albo parametr) i użyć klawisza <strong>Filtruj</strong>. Wyświetlą się wybrane towary.</p>
+</td>
+<td><a class="reference external" href="_zdj/6.1ltow1.png"><img alt="zdj8" class="align-middle" src="../_images/6.1ltow1.png" style="width: 449.0px; height: 334.5px;" /></a></td>
+</tr>
+</tbody>
+</table>
+<p>W oknie dokumentu MM można także zmieniać jego zawartość.
+<strong>Służą do tego klawisze edycji:</strong></p>
+<ul class="simple">
+<li>Marża</li>
+<li>Zmień cenę</li>
+<li>Popraw</li>
+<li>Usuń</li>
+<li>Opis</li>
+</ul>
+<p><strong>Oprócz tych są jeszcze klawisze:</strong></p>
+<ul class="simple">
+<li>Drukuj</li>
+<li>Szablon</li>
+<li>Dostosuj</li>
+</ul>
+<table border="1" class="docutils">
+<colgroup>
+<col width="53%" />
+<col width="47%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><strong>Marża</strong> – tym klawiszem uruchamia się funkcję zmiany ceny sprzedaży towaru. W oknie <em>Marża –&gt; Cena detaliczna</em> należy podać nową cenę sprzedaży towaru.</td>
+<td><a class="reference external" href="_zdj/6.1marza.png"><img alt="zdj9" class="align-middle" src="../_images/6.1marza.png" style="width: 275.0px; height: 264.0px;" /></a></td>
+</tr>
+<tr class="row-even"><td><strong>Popraw</strong> – służy do poprawienia ilości towaru.</td>
+<td><a class="reference external" href="_zdj/6.1towar.png"><img alt="zdj10" class="align-middle" src="../_images/6.1towar.png" style="width: 243.5px; height: 194.5px;" /></a></td>
+</tr>
+<tr class="row-odd"><td><strong>Usuń</strong> - pozwala usunąć wskazaną pozycję z dokumentu. Operacje należy przedtem potwierdzić.</td>
+<td><a class="reference external" href="_zdj/6.1potwierdzenie.png"><img alt="zdj11" class="align-middle" src="../_images/6.1potwierdzenie.png" style="width: 131.5px; height: 80.0px;" /></a></td>
+</tr>
+<tr class="row-even"><td><strong>Opis</strong> – pozwala dodać komentarz do dokumentu, który zostanie zachowany w bazie.</td>
+<td><a class="reference external" href="_zdj/6.1opis.png"><img alt="zdj12" class="align-middle" src="../_images/6.1opis.png" style="width: 449.5px; height: 302.0px;" /></a></td>
+</tr>
+<tr class="row-odd"><td><strong>OK</strong> – po zatwierdzeniu dokumentu następuje procedura drukowania.</td>
+<td><a class="reference external" href="_zdj/6.1mmwydruk.png"><img alt="zdj13" class="align-middle" src="../_images/6.1mmwydruk.png" style="width: 157.0px; height: 158.5px;" /></a></td>
+</tr>
+<tr class="row-even"><td>Wyświetla sie okno z szablonami wydruków do wyboru. Można uzyskać wydruk dokumentu w cenach zakupu lub cenach sprzedaży (po zmarżowaniu). Należy wybrać odpowiedni szablon i polecenie <em>Drukuj</em>. Następnie w pełnym oknie ukaże się postać dokumentu do wydruku. Klikając na ikonę drukarki na górnym pasku uzyskamy wydruk na drukarce. Wydruk można również zapisać w innych formatach i wyeksportować do pliku lub przeglądać w innym programie. W tym celu należy nacisnąć ikonę kopert na górnym pasku ekranu i wskazać odpowiedni format zapisu oraz przeznaczenie.</td>
+<td><a class="reference external" href="_zdj/6.1export.png"><img alt="zdj14" class="align-middle" src="../_images/6.1export.png" style="width: 208.0px; height: 120.5px;" /></a></td>
+</tr>
+<tr class="row-odd"><td>Aby zapisać nowy szablon, należy pod koniec edycji dokumentu MM, który uznamy za standardowy dla danego dostawcy, kliknąć klawisz Szablon. Wtedy wyświetli się okno Szablon i pod klawiszem Dodaj wpisujemy nazwę, pod którą chcemy zapamiętać dany dokument.</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>Aby skorzystać z zapamiętanego wcześniej szablonu, należy podczas edycji dokumentu kliknąć klawisz Szablon i Wybierz na wskazanym szablonie. Program pobierze pozycje towarowe z szablonu i można je zaktualizować w polach cena i ilość, zbędne wykasować, lub dopisać nowe.</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td><strong>Dostosuj widok</strong> – ten klawisz służy do dodawania lub usuwania kolumn widocznych w tabeli z towarami, a także do ustawiania kolorów dla poszczególnych elementów okna. Szczegółowy opis działania tej funkcji opisany jest w oddzielnej sekcji pt: <em>”Dostosuj widok”</em>.
+Po uruchomieniu klawisza pojawia się okno <em>Dostosuj widok</em>. Na pierwszej zakładce pt. <em>Kolumny</em> - z lewej strony okna jest wykaz kolumn, które można jeszcze dodać do tabeli, a z prawej wykaz kolumn, które są aktualnie wyświetlane. Używając klawiszy <strong>Dodaj</strong> i <strong>Usuń</strong>, można odpowiednio ustawić zawartość kolumn. Klawiszami strzałek w dolnej części okna można natomiast ustawić ich kolejność.</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>W zakładce <em>Kolory</em> można ustawić kolory tła i tekstu dla wierszy parzystych i nieparzystych, dla nagłówków oraz tło dla tabeli z pozycjami towarowymi.</td>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="dokument-pz">
+<h2>6.2 Dokument PZ<a class="headerlink" href="#dokument-pz" title="Stały odnośnik do tego nagłówka">¶</a></h2>
+<p><strong>Dokument PZ (Przyjęcie z Zewnątrz) jest dowodem przyjęcia towaru z zakupu do magazynu (sklepu).</strong>
+Dokumenty PZ mogą być wprowadzane do systemu pojedynczo przez operatora systemu lub w automatycznej procedurze importu dokumentów.
+Niezbędne informacje, które powinny zostać zapisane do systemu podczas wprowadzania dokumentu PZ to:</p>
+<p><strong>W nagłówku:</strong></p>
+<ul class="simple">
+<li>rodzaj / symbol dokumentu</li>
+<li>data</li>
+<li>numer dokumentu</li>
+<li>kontrahent</li>
+<li>magazyn przyjmujący</li>
+</ul>
+<p><strong>W treści – pozycji towarowej:</strong></p>
+<ul class="simple">
+<li>nazwa towaru i jego symbol</li>
+<li>ilość przyjęta</li>
+<li>cena zakupu towaru (netto i brutto)</li>
+<li>stawka VAT</li>
+<li>cena sprzedaży towaru (netto i brutto)</li>
+</ul>
+<table border="1" class="docutils">
+<colgroup>
+<col width="53%" />
+<col width="47%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>W zależności od definicji dokumentu PZ mogą być jeszcze wprowadzane inne dodatkowe informacje, jednak te wydają się być zasadnicze dla tego dokumentu.</td>
+<td><a class="reference external" href="_zdj/6.2pz1.png"><img alt="zdj20" class="align-middle" src="../_images/6.2pz1.png" style="width: 506.0px; height: 342.5px;" /></a></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Nagłówek</strong></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="53%" />
+<col width="47%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><strong>Rodzaj / symbol dokumentu</strong>  - jeżeli procedura zapisu dokumentu PZ wywoływana jest bezpośrednio z menu programu, wtedy ten rodzaj uzupełnia się automatycznie i wyświetla w oknie do wprowadzania w polu <strong>Rodzaj</strong>. Jeżeli natomiast procedura zapisu dokumentu jest wywoływana poprzez klawisz <strong>Dodaj</strong> z <em>Listy dokumentów</em>, wtedy należy wybrać z listy znajdującej się pod strzałką pola <strong>Rodzaj</strong> odpowiedni dokument, czyli <em>”0 PZ Przychód zewnętrzny”</em>.</td>
+<td><a class="reference external" href="_zdj/6.2ldokpz.png"><img alt="zdj21" class="align-middle" src="../_images/6.2ldokpz.png" style="width: 484.0px; height: 336.5px;" /></a></td>
+</tr>
+<tr class="row-even"><td><strong>Data</strong> wstawia się automatycznie bieżąca, chcąc ją zmienić można wpisać inną datę lub wyświetlić strzałką obok kalendarz i wybrać odpowiednią datę.</td>
+<td><a class="reference external" href="_zdj/6.2ldokpzkal.png"><img alt="zdj22" class="align-middle" src="../_images/6.2ldokpzkal.png" style="width: 428.5px; height: 225.0px;" /></a></td>
+</tr>
+<tr class="row-odd"><td><strong>Numer dokumentu</strong> pobiera się automatycznie z bazy danych jako kolejny. Można go w razie potrzeby zmienić na inny.</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td><strong>Kontrahent</strong> – obok pola Kontrahent znajdują się dwa klawisze: <strong>Lista</strong> i <strong>Domyślny</strong>. Klawisz <strong>Lista</strong> wywołuje listę kontrahentów, z której trzeba wybrać właściwego. Wybór kontrahenta ułatwi filtrowanie wg zadanego parametru. Można wpisać skrót dla danego kontrahenta lub część nazwy lub NIP, albo miasto, ulicę lub grupę kontrahentów. W zestawie parametrów może być jeden lub kilka. Po wpisaniu parametru/ów/ trzeba kliknąć klawisz <strong>Filtruj</strong> lub <strong>Filtruj w...</strong> . <strong>Filtruj w...</strong> przeszukuje całą zawartość odpowiedniego pola w bazie kontrahentów i szuka ciągu podanych znaków, a klawisz <strong>Filtruj</strong> bierze pod uwagę pierwsze znaki odpowiedniego pola i porównuje z podanym parametrem.
+Program wyszuka i wyświetli wszystkich kontrahentów, których dane spełniają zadane kryteria. Klawisz <strong>Pokaż wszystkie</strong> – jego kliknięcie spowoduje, że program pobierze wszystkich kontrahentów i wyświetli ich na ekranie Jeśli nie ma jeszcze tego kontrahenta w bazie danych to można go dodać wywołując procedurę zapisu nowego kontrahenta klawiszem <strong>Dodaj</strong> na <em>Liście kontrahentów</em>. Po wskazaniu kontrahenta na liście należy kliknąć klawisz <strong>Wybierz</strong> i dane zostaną przeniesione na dokument. Klawisz <strong>Domyślny</strong> przywraca kontrahenta, który przypisany jest do dokumentów PZ jako domyślny w definicji dokumentu.</td>
+<td><a class="reference external" href="_zdj/6.2listkon.png"><img alt="zdj24" class="align-middle" src="../_images/6.2listkon.png" style="width: 373.0px; height: 310.0px;" /></a></td>
+</tr>
+<tr class="row-odd"><td><strong>Magazyn</strong> właściwy dla dokumentu PZ może być określony na stałe w definicji dokumentu, może być też kilka magazynów. Jeśli jest określony jeden, wtedy w oknie dokumentu wyświetla się on automatycznie, w przeciwnym razie operator musi wskazać właściwy magazyn wybierając go z listy magazynów (pod strzałką obok pola <strong>Magazyn</strong>) lub wpisując odpowiedni symbol.</td>
+<td><a class="reference external" href="_zdj/6.2pzmag.png"><img alt="zdj25" class="align-middle" src="../_images/6.2pzmag.png" style="width: 506.0px; height: 342.5px;" /></a></td>
+</tr>
+</tbody>
+</table>
+<p>Dopiero po uzupełnieniu powyższych danych aktywnym staje się klawisz <strong>Dodaj</strong>, który umożliwia dopisanie pozycji do dokumentu oraz pole <strong>Kod</strong> i obok klawisz <strong>Lista</strong>, którym uruchamia sie okno z lista towarów. Natomiast po wprowadzeniu pierwszej pozycji aktywnymi stają się pozostałe klawisze na dole okna służące do edycji dokumentu.</p>
+<p><strong>Pozycje towarowe</strong></p>
+<p>Wprowadzając pozycje towarowe na dokument PZ należy oprócz identyfikatorów towaru i jego ilości wprowadzić właściwą cenę zakupu oraz stawkę podatku VAT.</p>
+<p>Ceny występują w wartości netto i brutto. Różnicę między nimi stanowi wartość podatku VAT (cena netto + podatek VAT = cena brutto). Wartość podatku jest obliczana jako cena netto * VAT%. Te przeliczenia odbywają się w programie automatycznie, wystarczy podać jedną z cen oraz właściwą stawkę podatku, a druga cena zostanie wyliczona. Przyjmując towar do magazynu należy także zadbać o wprowadzenie jego właściwej ceny sprzedaży. Jeśli wprowadzany towar istnieje już w bazie danych jako identyczny, ma zapewne swoja cenę sprzedaży, ale może też być potrzeba zmiany tej ceny. Przyjmując towar z zakupu może sie okazać, że w bazie danych on nie występuje i należy go dopisać. Wszystkie te operacje są możliwe do wykonania w trakcie wprowadzania dokumentu PZ.</p>
+<p><strong>Dodanie pozycji towarowej</strong> do dokumentu może odbywać się na kilka sposobów:</p>
+<ul class="simple">
+<li>wczytanie kodu kreskowego towaru w polu <strong>Kod</strong></li>
+<li>wprowadzenie kodu PLU w polu <strong>Kod</strong></li>
+<li>poprzez klawisz <strong>Lista</strong> lub <strong>Dodaj</strong> i wybór towaru z Listy towarów.</li>
+</ul>
+<table border="1" class="docutils">
+<colgroup>
+<col width="53%" />
+<col width="47%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>Na Liście towarów można podać parametry towarów do wyświetlenia (np. grupa towarowa, kod kreskowy, parametr) i użyć klawisza Filtruj. Wyświetlą się wybrane towary. Podwójnym klikiem na pozycji zaznaczamy towary do przeniesienia na dokument. Jeśli na liście znajdują się wszystkie towary, których szukamy i nie trzeba zmieniać ich cen detalicznych, wtedy klikamy klawisz Wybierz i przechodzimy do etapu zapisu pozycji, gdzie podamy ilość i cenę zakupu dla każdego wskazanego towaru.</td>
+<td><a class="reference external" href="_zdj/6.2ltow.png"><img alt="zdj26" class="align-middle" src="../_images/6.2ltow.png" style="width: 449.0px; height: 343.5px;" /></a></td>
+</tr>
+</tbody>
+</table>
+<p>Zatrzymajmy się jeszcze przy <em>Liście towarów</em>, ponieważ może być taka sytuacja, że trzeba będzie:</p>
+<ul class="simple">
+<li>uzyskać <strong>informacje o towarze</strong> z Listy w celu porównania</li>
+<li>zmienić <strong>cenę sprzedaży</strong> towaru</li>
+<li><strong>dodać</strong> do Listy <strong>podobny towar</strong> w innym rozmiarze lub kolorystyce itp.</li>
+<li><strong>dodać</strong> do Listy <strong>nowy towar</strong></li>
+</ul>
+<p><strong>Poniżej opis tych procedur:</strong></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="53%" />
+<col width="47%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><strong>Informacje o towarze</strong>. Na dole Listy dokumentów jest klawisz o tej nazwie. Po kliknięciu klawisza ukazują się szczegółowo informacje identyfikujące towar. W tym oknie pod klawiszem <strong>Wybierz</strong> wyświetlają się kolejne informacje o towarze.</td>
+<td><a class="reference external" href="_zdj/6.2info.png"><img alt="zdj27" class="align-middle" src="../_images/6.2info.png" style="width: 158.5px; height: 154.0px;" /></a></td>
+</tr>
+<tr class="row-even"><td>Obroty na towarze oraz cena sprzedaży w kolumnie <em>”Cena detaliczna”</em>.</td>
+<td><a class="reference external" href="_zdj/6.2info2.png"><img alt="zdj28" class="align-middle" src="../_images/6.2info2.png" style="width: 476.0px; height: 282.0px;" /></a></td>
+</tr>
+<tr class="row-odd"><td><strong>Zmiana ceny sprzedaży towaru</strong>. Na dole Listy dokumentów jest klawisz o nazwie <strong>Marża</strong>. Tym klawiszem uruchamiamy okno, w którym można zmienić cenę sprzedaży w polu <strong>Nowa cena</strong>.</td>
+<td><a class="reference external" href="_zdj/6.2marza.png"><img alt="zdj29" class="align-middle" src="../_images/6.2marza.png" style="width: 275.0px; height: 264.0px;" /></a></td>
+</tr>
+<tr class="row-even"><td><strong>Dodać podobny towar</strong>. Klikając na klawisz <strong>Utwórz podobne</strong> wyświetli się okno dopisywania towaru o takiej samej nazwie jak wskazany na <em>Liście</em>, który może różnić się rozmiarem, czy kolorem itp. Należy kliknąć <strong>Dodaj</strong> – podświetli się nowy wiersz, w tym wierszu w odpowiedniej kolumnie kliknąć strzałkę i wyświetli się okienko z listą np. rozmiarów do wyboru. Trzeba wybrać odpowiednią charakterystykę i zatwierdzić dopisanie nowego towaru klawiszem <strong>OK</strong>.</td>
+<td><a class="reference external" href="_zdj/6.2utwpodob.png"><img alt="zdj30" class="align-middle" src="../_images/6.2utwpodob.png" style="width: 407.5px; height: 282.0px;" /></a></td>
+</tr>
+<tr class="row-odd"><td><strong>Dodać nowy towar</strong>. Klikając klawisz <strong>Dodaj</strong> uruchamia się okno dopisywania nowego towaru do Listy towarów.</td>
+<td><a class="reference external" href="_zdj/6.2danetowaru1.png"><img alt="zdj31" class="align-middle" src="../_images/6.2danetowaru1.png" style="width: 359.0px; height: 326.5px;" /></a></td>
+</tr>
+<tr class="row-even"><td>Po wybraniu z listy jednego lub wielu towarów wyświetla się okno <em>Parametry dodania</em> z tymi towarami. Należy uzupełnić wiersze w kolumnie <em>Ilość</em> i w kolumnie <em>Cena</em>. Jest to cena zakupu netto. Można ewentualnie zmienić pole w kolumnie VAT, jeśli stawka VAT uległa zmianie.</td>
+<td><a class="reference external" href="_zdj/6.2paramdod.png"><img alt="zdj32" class="align-middle" src="../_images/6.2paramdod.png" style="width: 382.5px; height: 204.5px;" /></a></td>
+</tr>
+<tr class="row-odd"><td>Po zaakceptowaniu towarów klawiszem <strong>OK</strong>, zostają one zapisane na tworzonym dokumencie PZ.</td>
+<td><a class="reference external" href="_zdj/6.2pz3.png"><img alt="zdj33" class="align-middle" src="../_images/6.2pz3.png" style="width: 506.0px; height: 342.5px;" /></a></td>
+</tr>
+<tr class="row-even"><td>W oknie dokumentu PZ można także zmieniać jego zawartość. Służą do tego klawisze edycji:</td>
+<td><p class="first">-Marża</p>
+<p>-Popraw</p>
+<p>-Usuń</p>
+<p>-Opis</p>
+<p>-Drukuj</p>
+<p>-Usuń</p>
+<p class="last">-Dostosuj</p>
+</td>
+</tr>
+<tr class="row-odd"><td><strong>Marża</strong> – tym klawiszem uruchamia się funkcję identyczną z opisaną wyżej w punkcie <strong>Zmiana ceny sprzedaży towaru</strong>.</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td><strong>Popraw</strong> – służy do poprawienia pozycji towarowej: ilości, a także ewentualnie ceny lub stawki procentowej VAT.</td>
+<td><a class="reference external" href="_zdj/6.2popraw.png"><img alt="zdj36" class="align-middle" src="../_images/6.2popraw.png" style="width: 243.5px; height: 194.5px;" /></a></td>
+</tr>
+<tr class="row-odd"><td><strong>Usuń</strong> – pozwala usunąć wskazaną pozycję z dokumentu. Operacje należy przedtem potwierdzić.</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td><strong>Opis</strong> – pozwala dodać komentarz do dokumentu, który zostanie zachowany w bazie.</td>
+<td><a class="reference external" href="_zdj/6.2opis.png"><img alt="zdj38" class="align-middle" src="../_images/6.2opis.png" style="width: 449.5px; height: 302.0px;" /></a></td>
+</tr>
+<tr class="row-odd"><td><strong>OK</strong> – po zatwierdzeniu dokumentu następuje procedura drukowania. Wyświetla sie okno z szablonami wydruków do wyboru. Można uzyskać wydruk dokumentu w cenach zakupu lub po nazwie. Należy wybrać odpowiedni szablon i polecenie <strong>Drukuj</strong>.</td>
+<td><a class="reference external" href="_zdj/6.2wydruki.png"><img alt="zdj39" class="align-middle" src="../_images/6.2wydruki.png" style="width: 157.0px; height: 158.5px;" /></a></td>
+</tr>
+<tr class="row-even"><td>Następnie w pełnym oknie ukaże się postać dokumentu do wydruku. Klikając na ikonę drukarki na górnym pasku uzyskamy wydruk na drukarce.</td>
+<td><a class="reference external" href="_zdj/6.2pzwydruk.png"><img alt="zdj40" class="align-middle" src="../_images/6.2pzwydruk.png" style="width: 404.5px; height: 216.5px;" /></a></td>
+</tr>
+<tr class="row-odd"><td>Wydruk można również zapisać w innych formatach i wyeksportować do pliku lub przeglądać w innym programie. W tym celu należy nacisnąć ikonę kopert na górnym pasku ekranu i wskazać odpowiedni format zapisu oraz przeznaczenie.</td>
+<td><a class="reference external" href="_zdj/6.2export.png"><img alt="zdj41" class="align-middle" src="../_images/6.2export.png" style="width: 208.0px; height: 120.5px;" /></a></td>
+</tr>
+<tr class="row-even"><td><strong>Dostosuj widok</strong> – ten klawisz służy do dodawania lub usuwania kolumn widocznych w tabeli z towarami, a także do ustawiania kolorów dla poszczególnych elementów okna. Szczegółowy opis działania tej funkcji opisany jest w oddzielnej sekcji pt: <em>“Dostosuj widok”</em>.
+Po uruchomieniu klawisza pojawia się okno <em>Dostosuj widok</em>. Na pierwszej zakładce pt. <em>Kolumny</em> – z lewej strony okna jest wykaz kolumn, które można jeszcze dodać do tabeli, a z prawej wykaz kolumn, które są aktualnie wyświetlane. Używając klawiszy <strong>Dodaj</strong> i <strong>Usuń</strong>, można odpowiednio ustawić zawartość kolumn. Klawiszami strzałek w dolnej części okna można natomiast ustawić ich kolejność.</td>
+<td><a class="reference external" href="_zdj/6.2dostosuj.png"><img alt="zdj42" class="align-middle" src="../_images/6.2dostosuj.png" style="width: 241.5px; height: 180.0px;" /></a></td>
+</tr>
+<tr class="row-odd"><td>W zakładce <em>Kolory</em> można ustawić kolory tła i tekstu dla wierszy parzystych i nieparzystych, dla nagłówków oraz tło dla tabeli z pozycjami towarowymi.</td>
+<td><a class="reference external" href="_zdj/6.2dostkolor.png"><img alt="zdj43" class="align-middle" src="../_images/6.2dostkolor.png" style="width: 241.5px; height: 180.0px;" /></a></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Nawigacja</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="Indeks ogólny"
+             >indeks</a></li>
+        <li class="right" >
+          <a href="rap.html" title="7.Raporty w systemie Retilia.Point"
+             >dalej</a> |</li>
+        <li class="right" >
+          <a href="kasa.html" title="5. Kasa Główna"
+             >wstecz</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">Instrukcja Retilia.Point</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &copy; Copyright 2016, Retilia Sp. z o.o..
+    </div>
+  </body>
+</html>
